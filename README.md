@@ -23,7 +23,7 @@ Please read this before contributing.
 
 ## Качество важнее количества
 
-We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://github.com/c0rdis/privacytools.ru/#im))
+We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://privacytools.ru/#im))
 
 ## Критерии выбора
 
@@ -36,13 +36,13 @@ We're trying to keep it simple and promote the best tools, not all of them. Maxi
 
 ## Изображения
 
-- Provider logos should be exactly 200 x 70 ([example](https://github.com/c0rdis/privacytools.ru/img/provider/AirVPN.gif))
-- Tool logos should be exactly 120 x 120 ([example](https://github.com/c0rdis/privacytools.ru/img/tools/ChatSecure.png))
+- Provider logos should be exactly 200 x 70 ([example](https://github.com/c0rdis/privacytools.ru/blob/master/img/provider/AirVPN.gif))
+- Tool logos should be exactly 120 x 120 ([example](https://github.com/c0rdis/privacytools.ru/blob/master/img/tools/ChatSecure.png))
 
 # Поддержка privacytools.ru
 
-- [Пожертвуй.](https://github.com/c0rdis/privacytools.ru/donate.html)
-- [Распространяй.](https://github.com/c0rdis/privacytools.ru/#participate)
+- [Пожертвуй.](https://privacytools.ru/donate.html)
+- [Распространяй.](https://privacytools.ru/#participate)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
 
