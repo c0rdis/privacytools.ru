@@ -14,33 +14,33 @@ You can submit your suggestions here on GitHub [(Issues)](https://github.com/pri
 # Contributing Guidelines
 Please read this before contributing.
 
-## Rules
+## Правила
 
-- Be nice and respectful.
-- English only.
-- Be constructive.
+- Будь вежлив и уважай чужое мнение.
+- Здесь говорим по-русски.
+- Будь конструктивен.
 
-## Quality over Quantity
+## Качество важнее количества
 
 We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://privacytoolsio.github.ru/privacytools.ru/#im))
 
-## Software Criteria
+## Критерии выбора
 
-- Open Source
-- Cross-platform
-- Easy to use
-- Privacy respecting
+- Открытый исходный код
+- Кроссплатформенность
+- Простота использования
+- Повышает приватность
 
-There can be exceptions if no software is available that meet the criteria.
+В случаях, когда нет доступного ПО, удовлетворяющего указанным критериям, возможны исключения.
 
 ## Images
 
 - Provider logos should be exactly 200 x 70 ([example](https://privacytoolsio.github.ru/privacytools.ru/img/provider/AirVPN.gif))
 - Tool logos should be exactly 120 x 120 ([example](https://privacytoolsio.github.ru/privacytools.ru/img/tools/ChatSecure.png))
 
-# Support privacytools.ru
+# Поддержка privacytools.ru
 
-- [Donate.](https://privacytoolsio.github.ru/privacytools.ru/donate.html)
+- [Пожертвуй.](https://privacytoolsio.github.ru/privacytools.ru/donate.html)
 - [Spread the word.](https://privacytoolsio.github.ru/privacytools.ru/#participate)
 - [Make suggestions on reddit.](https://www.reddit.com/r/privacytoolsIO/)
 - View and edit our website source code here on GitHub.
