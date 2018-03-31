@@ -1,4 +1,4 @@
-[![privacytools](https://github.com/c0rdis/privacytools.ru/img/layout/logo.png)](https://www.privacytools.ru/)
+[![privacytools](https://github.com/c0rdis/privacytools.ru/blob/master/img/layout/logo.png)](https://www.privacytools.ru/)
 
 _Криптография для борьбы с массовой слежкой._
 
