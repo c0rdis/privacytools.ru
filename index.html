@@ -790,11 +790,11 @@
 
 		<!-- red alert message about WebRTC being a new communication protocol... -->
 		<div class="alert alert-danger" role="alert">
-			<strong>WebRTC is a new communication protocol that relies on JavaScript that can leak your actual IP address from behind your VPN.</strong>
+			<strong>WebRTC - реализованный в JavaScript проект для передачи потоковых данных между браузерами. При использовании VPN может быть причиной раскрытия реального IP-адреса пользователя.</strong>
 		</div>
 
 		<!-- first sentence -->
-		<p>While software like NoScript prevents this, it's probably a good idea to block this protocol directly as well, just to be safe.</p>
+		<p>Несмотря на то, что некоторые аддоны (например, NoScript) позволяют избежать этого, если ты не используешь WebRTC, может иметь смысл все равно отключить его "на всякий случай".</p>
 
 		<!-- orange "Test your Browser now" button -->
 		<p>
@@ -807,37 +807,37 @@
 		<h3>Как отключить WebRTC в Firefox?</h3>
 
 		<!-- steps on manually disabling WRTC in Firefox -->
-		<p>В двух словах: Set "media.peerconnection.enabled" to "false" в "about:config".</p>
+		<p>В двух словах: измени значение настройки "media.peerconnection.enabled" на "false" в "about:config".</p>
 		<p><strong>Шаг за шагом:</strong></p>
 		<ol>
 			<li>Введи "about:config" в адресную строку Firefox и нажми Enter.</li>
-			<li>Press the button "I'll be careful, I promise!"</li>
-			<li>Search for "media.peerconnection.enabled"</li>
-			<li>Double click the entry, the column "Value" should now be "false"</li>
-			<li>Готово. Do the WebRTC leak test again.</li>
+			<li>Кликни "Я принимаю на себя риск!"</li>
+			<li>В поиске набери "media.peerconnection.enabled"</li>
+			<li>Дважды кликни на выбранную настройку и убедись, что поле "Значение" установлено в "false"</li>
+			<li>Готово. Проверь свой браузер снова.</li>
 		</ol>
 
-		<p>If you want to make sure every single WebRTC related setting is really disabled change these settings:</p>
+		<p>Если хочешь быть уверен, что все связанные с WebRTC настройки отключены, перепроверь следующие значения:</p>
 		<ol>
 			<li>media.peerconnection.turn.disable = true</li>
 			<li>media.peerconnection.use_document_iceservers = false</li>
 			<li>media.peerconnection.video.enabled = false</li>
 			<li>media.peerconnection.identity.timeout = 1</li>
 		</ol>
-		<p>Now you can be 100% sure WebRTC is disabled.</p>
+		<p>Теперь можешь быть уверен на 100%, что WebRTC отключен.</p>
 
 		<!-- the "Test your Browser again" button -->
 		<p>
 			<a href="webrtc.html">
-				<button type="button" class="btn btn-primary">Test your Browser again</button>
+				<button type="button" class="btn btn-primary">Проверь свой браузер снова</button>
 			</a>
 		</p>
 
 		<!-- steps to manually disable WebRTC in Chrome -->
-		<h3>How to fix the WebRTC Leak in Google Chrome?</h3>
+		<h3>Как исправить утечку через WebRTC в Google Chrome?</h3>
 		<p>WebRTC cannot be fully disabled in Chrome, however it is possible to change its routing settings (and prevent leaks) using an extension. Two open source solutions include <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (options may need to be changed depending on the scenario), and <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (select "Prevent WebRTC from leaking local IP addresses" in Settings).</p>
 
-		<h3>What about other browsers?</h3>
+		<h3>Что насчет других браузеров?</h3>
 		<p>Chrome on iOS, Internet Explorer and Safari does not implement WebRTC yet. <a href="#browser"><span class="glyphicon glyphicon-link"></span> But we recommend using Firefox on all devices.</a></p>
 
 
