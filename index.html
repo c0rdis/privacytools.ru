@@ -799,7 +799,7 @@
 		</div>
 
 		<!-- first sentence -->
-		<p>Несмотря на то, что некоторые аддоны (например, NoScript) позволяют избежать этого, если ты не используешь WebRTC, может иметь смысл все равно отключить его "на всякий случай".</p>
+		<p>Несмотря на то, что некоторые аддоны (например, NoScript) позволяют избежать утечки IP, может иметь смысл все равно отключить WebRTC "на всякий случай".</p>
 
 		<!-- orange "Test your Browser now" button -->
 		<p>
@@ -822,14 +822,14 @@
 			<li>Готово. Проверь свой браузер снова.</li>
 		</ol>
 
-		<p>Если хочешь быть уверен, что все связанные с WebRTC настройки отключены, перепроверь следующие значения:</p>
+		<p>Для полной уверенности, что все связанные с WebRTC настройки отключены, перепроверь следующие значения:</p>
 		<ol>
 			<li>media.peerconnection.turn.disable = true</li>
 			<li>media.peerconnection.use_document_iceservers = false</li>
 			<li>media.peerconnection.video.enabled = false</li>
 			<li>media.peerconnection.identity.timeout = 1</li>
 		</ol>
-		<p>Теперь можешь быть уверен на 100%, что WebRTC отключен.</p>
+		<p>Теперь WebRTC отключен на 100%.</p>
 
 		<!-- the "Test your Browser again" button -->
 		<p>
@@ -839,7 +839,7 @@
 		</p>
 
 		<!-- steps to manually disable WebRTC in Chrome -->
-		<h3>Как исправить утечку через WebRTC в Google Chrome?</h3>
+		<h3>Как исправить утечку IP через WebRTC в Google Chrome?</h3>
 		<p>WebRTC cannot be fully disabled in Chrome, however it is possible to change its routing settings (and prevent leaks) using an extension. Two open source solutions include <a href="https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml">WebRTC Leak Prevent</a> (options may need to be changed depending on the scenario), and <a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm">uBlock Origin</a> (select "Prevent WebRTC from leaking local IP addresses" in Settings).</p>
 
 		<h3>Что насчет других браузеров?</h3>
