@@ -594,10 +594,10 @@
 					<h3>Критерии выбора VPN-провайдеров</h3>
 					<ul>
 						<li>Расположены за пределами США и других стран "Пяти глаз".
-							<br>More: <a href="https://www.bestvpn.com/the-ultimate-privacy-guide/#avoidus">Избегай сервисов из Великобритании и США.</a></li>
+							<br>См. также: <a href="https://www.bestvpn.com/the-ultimate-privacy-guide/#avoidus">Избегай сервисов из Великобритании и США.</a></li>
 						<li>Поддержка OpenVPN.</li>
 						<li>Возможность оплаты в биткоинах, наличными, дебетовыми, либо предоплаченными картами.</li>
-						<li>No personal information is required to create an account. Only username, password and <a href="#email"><span class="glyphicon glyphicon-link"></span> Email.</a></li>
+						<li>Для создания аккаунта не нужны персональные данные, кроме имени пользователя, пароля и <a href="#email"><span class="glyphicon glyphicon-link"></span> email-адреса.</a></li>
 					</ul>
 					<p>Мы не аффилированы ни с одним из вышеперечисленных VPN провайдеров. Мы верим, что только таким способом можно дать честные рекомендации.</p>
 
@@ -605,10 +605,10 @@
 					<h3>Другие VPN-провайдеры</h3>
 					<p>
 						<a href="https://thatoneprivacysite.net/vpn-comparison-chart/">
-    Spreadsheet with unbiased, independently verifiable data on over 100 VPN services.
+    Таблица с независимым анализом более 100 VPN-сервисов.
   </a>
 						<a href="https://www.reddit.com/r/privacytoolsIO/comments/43d4zs/you_guys_might_be_interested_in_this_a/">
-    (Join the discussion on Reddit)
+    (Обсуждение на Reddit)
   </a>
 					</p>
 
@@ -759,8 +759,8 @@
 		<img src="img/layout/browser-fingerprint.jpg" class="img-responsive pull-right" alt="Fingerprint image" style="margin-left:20px;">
 
 		<!-- first paragraph -->
-		<p>When you visit a web page, your browser voluntarily sends information about its configuration, such as available fonts, browser type, and add-ons. If this combination of information is unique, it may be possible to identify and track you without using
-			cookies. EFF created a Tool called <a href="https://panopticlick.eff.org/">Panopticlick</a> to test your browser to see how unique it is.</p>
+		<p>При открытии произвольной веб-страницы браузер отправляет такие метаданные как доступные шрифты, тип браузера и расширения. Если набор данных уникален, его можно использовать для идентификации пользователя даже при отсутствии кук.
+			EFF создало утилиту <a href="https://panopticlick.eff.org/">Panopticlick</a> для проверки уникальности отпечатка твоего браузера.</p>
 
 		<!-- First orange "test your browser now" button -->
 		<p>
@@ -770,27 +770,28 @@
 		</p>
 
 		<!-- second paragraph -->
-		<p>You need to find what <strong>most browsers</strong> are reporting, and then use those variables to bring your browser in the same population. This means having the same fonts, plugins, and extensions installed as the large installed base. You should
-			have a <a href="https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/">spoofed user agent string</a> to match what the large userbase has. You need have the same settings enabled and disabled, such as DNT and WebGL. You need your browser to
-			look as common as everyone else. Disabling JavaScript, using Linux, or even the TBB, will make your browser stick out from the masses.</p>
+		<p>Для защиты конфиденциальности необходимо понимать, какие данные (шрифты, плагины и расширения) отправляются <strong>большинством браузеров</strong>,
+			а затем использовать те же значения, чтобы маскироваться под основную массу пользователей. Это означает, что строка User Agent должна быть
+			<a href="https://addons.mozilla.org/en-US/firefox/addon/uaswitcher/">подменена</a> на ту, что используется большинством, настройки должны соответствовать
+			конфигурации по умолчанию (например, DNT и WebGL) и т.д. Отключив JavaScript, используя Linux или Tor Browser, ты сильно выделяешься из толпы.</p>
 
 		<!-- third paragraph -->
-		<p>Modern web browsers have not been architected to assure personal web privacy. Rather than worrying about being fingerprinted, it seems more practical to use <a href="#addons"><span class="glyphicon glyphicon-link"></span> free software plugins</a> like Privacy Badger, uBlock Origin and Disconnect.
-			They not only respect your freedom, but your privacy also. You can get much further with these than trying to manipulate your browser's fingerprint.</p>
+		<p>Современные браузеры не были созданы с целью защиты пользовательской приватности. Мы рекомендуем использовать <a href="#addons"><span class="glyphicon glyphicon-link"></span> бесплатные расширения</a>
+			такие как Privacy Badger, uBlock Origin и Disconnect - с их помощью можно анонимизировать браузерный отпечаток и повысить приватность.</p>
 
 		<!-- related information links -->
 		<h3>Дополнительная информация</h3>
 		<ul>
-			<li><a href="https://panopticlick.eff.org/static/browser-uniqueness.pdf">How Unique Is Your Web Browser? Peter Eckersley, EFF.</a></li>
-			<li><a href="https://www.reddit.com/r/privacytoolsIO/comments/35pqyl/new_section_browser_fingerprint_is_your_browser/">Join our discussion on reddit.com about browser fingerprinting.</a></li>
-			<li><a href="#addons"><span class="glyphicon glyphicon-link"></span> Our Firefox privacy add-ons section.</a></li>
-			<li><a href="https://www.browserleaks.com/">BrowserLeaks.com</a> - Web browser security testing tools, that tell you what exactly personal identity data may be leaked without any permissions when you surf the Internet.</li>
+			<li><a href="https://panopticlick.eff.org/static/browser-uniqueness.pdf">Насколько уникален твой браузер? Peter Eckersley, EFF.</a></li>
+			<li><a href="https://www.reddit.com/r/privacytoolsIO/comments/35pqyl/new_section_browser_fingerprint_is_your_browser/">Присоединяйся к обсуждению идентификации по браузерным отпечаткам на reddit.com.</a></li>
+			<li><a href="#addons"><span class="glyphicon glyphicon-link"></span> Наша секция расширений приватности Firefox.</a></li>
+			<li><a href="https://www.browserleaks.com/">BrowserLeaks.com</a> - Утилиты тестирования браузера, которые раскрывают, какие именно данные отправляются наружу, когда ты переходишь на произвольную страницу в Интернете.</li>
 		</ul>
 
 		<!-- WebRTC IP Leak Test -->
 		<a class="anchor" name="webrtc"></a>
 		<div class="page-header">
-			<h1><a href="#webrtc" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> WebRTC IP Leak Test - Is your IP address leaking?</h1>
+			<h1><a href="#webrtc" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Тест утечки IP через WebRTC</h1>
 		</div>
 
 		<!-- red alert message about WebRTC being a new communication protocol... -->
