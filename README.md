@@ -7,23 +7,24 @@ _Криптография для борьбы с массовой слежкой
 Нам важно, чтобы информация здесь была полезной и актуальной. Если ты вдруг заметишь ошибку или посчитаешь, что один из вышеуказанных провайдеров/приложений/аддонов недостаточно хорош, а какой-нибудь другой получше отсутствует...
 
 
-**Напиши нам, пожалуйста.** Присоединяйся к [subreddit](https://www.reddit.com/r/privacytoolsIO/) и начни обсуждение. Проект разработан сообществом. Мы стремимся предоставить лучшую доступную информацию для повышения пользовательской приватности. Мы также используем [/r/privacy](https://www.reddit.com/r/privacy). Спасибо за участие.
+**Напиши нам, пожалуйста.** Присоединяйся к [subreddit](https://www.reddit.com/r/privacytoolsIO/) и начни обсуждение. Проект разработан сообществом. Мы стремимся предоставить лучшую доступную информацию для повышения пользовательской приватности. Мы также частенько используем [/r/privacy](https://www.reddit.com/r/privacy). Спасибо за участие.
 
-Ты можешь предложить свои идеи здесь на GitHub [(Issues)](https://github.com/c0rdis/privacytools.ru/issues), а также на [subreddit](https://www.reddit.com/r/privacytoolsIO/). Спасибо.
+Ты можешь предложить свои идеи здесь на GitHub [(Issues)](https://github.com/c0rdis/privacytools.ru/issues), а также в нашем [subreddit](https://www.reddit.com/r/privacytoolsIO/). Спасибо.
 
 
-# Contributing Guidelines
+# Основные принципы
 Пожалуйста, прочитай эту секцию перед началом работы.
 
 ## Правила
 
 - Будь вежлив и уважай чужое мнение.
-- Здесь говорим по-русски.
 - Будь конструктивен.
+- Здесь говорим по-русски.
 
 ## Качество важнее количества
 
-We're trying to keep it simple and promote the best tools, not all of them. Maximum are three software choices, but it's possible to add more under "Worth Mentioning" headlines. ([example](https://privacytools.ru/#im))
+Мы стараемся не усложнять выбор и предлагать только лучшее. В секциях может быть максимум до трех
+рекомендованных утилит - при необходимости используй подсекцию "См. также".  ([Пример](https://privacytools.ru/#im))
 
 ## Критерии выбора
 
@@ -42,9 +43,9 @@ We're trying to keep it simple and promote the best tools, not all of them. Maxi
 # Поддержка privacytools.ru
 
 - [Пожертвуй.](https://privacytools.ru/donate.html)
-- [Распространяй.](https://privacytools.ru/#participate)
+- [Расскажи о нас.](https://privacytools.ru/#participate)
 - [Предложи улучшения на reddit.](https://www.reddit.com/r/privacytoolsIO/)
-- Внеси предложения в код, размещенных здесь на GitHub.
+- Внеси предложения в код, размещенный в этом репозитории.
 
 # Переводы сообщества
 - [Main page (English) / Английский](https://privacytools.io) - [GitHub](https://github.com/privacytoolsIO/privacytools.io)
