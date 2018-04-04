@@ -24,7 +24,7 @@ _Криптография для борьбы с массовой слежкой
 ## Качество важнее количества
 
 Мы стараемся не усложнять выбор и предлагать только лучшее. В секциях может быть максимум до трех
-рекомендованных утилит - при необходимости используй подсекцию "См. также".  ([Пример](https://privacytools.ru/#im))
+рекомендованных утилит - при необходимости используй подсекцию "См. также".  ([пример](https://privacytools.ru/#im))
 
 ## Критерии выбора
 
@@ -37,14 +37,14 @@ _Криптография для борьбы с массовой слежкой
 
 ## Изображения
 
-- Размер логотипов провайдеров должен быть 200 x 70 ([example](https://github.com/c0rdis/privacytools.ru/blob/master/img/provider/AirVPN.gif))
-- Размер логотипов утилит должен быть 120 x 120 ([example](https://github.com/c0rdis/privacytools.ru/blob/master/img/tools/ChatSecure.png))
+- Размер логотипов провайдеров должен быть 200 x 70 ([пример](https://github.com/c0rdis/privacytools.ru/blob/master/img/provider/AirVPN.gif))
+- Размер логотипов утилит должен быть 120 x 120 ([пример](https://github.com/c0rdis/privacytools.ru/blob/master/img/tools/ChatSecure.png))
 
 # Поддержка privacytools.ru
 
-- [Пожертвуй.](https://privacytools.ru/donate.html)
-- [Расскажи о нас.](https://privacytools.ru/#participate)
-- [Предложи улучшения на reddit.](https://www.reddit.com/r/privacytoolsIO/)
+- [Пожертвуй](https://privacytools.ru/donate.html)
+- [Расскажи о нас](https://privacytools.ru/#participate)
+- [Предложи улучшения на reddit](https://www.reddit.com/r/privacytoolsIO/)
 - Внеси предложения в код, размещенный в этом репозитории.
 
 # Переводы сообщества
