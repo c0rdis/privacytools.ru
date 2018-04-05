@@ -1,6 +1,6 @@
 [![privacytools](https://github.com/c0rdis/privacytools.ru/blob/master/img/layout/logo.png)](https://www.privacytools.ru/)
 
-_Криптография для борьбы с массовой слежкой._
+_Практические рекомендации по повышению приватности в Интернете_
 
 # Помочь нам
 
