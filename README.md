@@ -54,4 +54,4 @@ _Практические рекомендации по повышению пр�
 - [Deutsch / Немецкий](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
 
 # Лицензия
-[GNU General Public License v3.0](https://github.com/c0rdis/privacytools.ru/blob/master/LICENSE.txt)
+[Do What The Fuck You Want To Public License](https://github.com/c0rdis/privacytools.ru/blob/master/LICENSE.txt)
