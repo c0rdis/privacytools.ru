@@ -49,9 +49,10 @@ _Практические рекомендации по повышению пр�
 
 # Переводы сообщества
 - [Main page (English) / Английский](https://privacytools.io) - [GitHub](https://github.com/privacytoolsIO/privacytools.io)
-- [繁体中文 / Китайский](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
 - [Español / Испанский](https://victorhck.gitlab.ru/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
+- [Italiano / Итальянский](https://strappazzon.github.io/privacytools-it/) - [GitHub](https://github.com/Strappazzon/privacytools-it)
 - [Deutsch / Немецкий](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
+- [繁体中文 / Китайский](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
 
 # Лицензия
-[Do What The Fuck You Want To Public License](https://github.com/c0rdis/privacytools.ru/blob/master/LICENSE.txt)
+[Do What The Fuck You Want To Public License (WTFPL)](https://github.com/c0rdis/privacytools.ru/blob/master/LICENSE.txt)
