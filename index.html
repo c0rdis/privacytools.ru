@@ -105,8 +105,8 @@
 							<li><a href="#browser">Наши рекомендации</a></li>
 							<li><a href="#fingerprint">Отпечаток браузера</a></li>
 							<li><a href="#webrtc">Утечка IP через WebRTC</a></li>
-							<li><a href="#addons">Аддоны приватности Firefox</a></li>
-							<li><a href="#about_config">Браузерные настройки приватности</a></li>
+							<li><a href="#addons">Расширения приватности</a></li>
+							<li><a href="#about_config">Конфигурирование Firefox</a></li>
 						</ul>
 					</li>
 
@@ -122,7 +122,6 @@
 							<li><a href="#sync">Secure File Sync</a></li>
 							<li><a href="#pw">Менеджеры паролей</a></li>
 							<li><a href="#encrypt">Утилиты для шифрования</a></li>
-							<li><a href="password.html">Безопасный генератор паролей</a></li>
 						</ul>
 					</li>
 
@@ -130,7 +129,6 @@
 					<li class="dropdown">
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Полезные сервисы<span class="caret"></span></a>
 						<ul class="dropdown-menu" role="menu">
-
 							<li><a href="#darknets">Анонимные сети</a></li>
 							<li><a href="#social">Децентрализованные социальные сети</a></li>
 							<li><a href="#cloud">Зашифрованные облачные хранилища</a></li>
@@ -138,6 +136,7 @@
 							<li><a href="#notebook">Digital Notebook</a></li>
 							<li><a href="#paste">Paste Services</a></li>
 							<li><a href="#productivity">Онлайн-редакторы</a></li>
+							<li><a href="password.html">Безопасный генератор паролей</a></li>
 						</ul>
 					</li>
 
@@ -978,7 +977,7 @@
 					</div>
 					<div class="panel-body">
 						<p><img src="img/tools/Firefox.png" align="right" style="margin-left:5px;">Firefox - быстрый и безопасный браузер с открытым исходным кодом, позволяющий защитить приватность в Интернете. См. также: рекомендуемые настройки
-							 <a href="#webrtc"><span class="glyphicon glyphicon-link"></span> WebRTC</a> и <a href="#about_config"><span class="glyphicon glyphicon-link"></span> about:config</a> и <a href="#addons"><span class="glyphicon glyphicon-link"></span>дополнительные аддоны приватности</a>.</p>
+							 <a href="#webrtc"><span class="glyphicon glyphicon-link"></span> WebRTC</a> и <a href="#about_config"><span class="glyphicon glyphicon-link"></span> about:config</a> и <a href="#addons"><span class="glyphicon glyphicon-link"></span>расширения приватности</a>.</p>
 						<p>
 							<a href="https://www.firefox.com/">
 								<button type="button" class="btn btn-info">Скачать: firefox.com</button>
@@ -1066,7 +1065,7 @@
 		</div>
 
 		<!-- first sentence -->
-		<p>Несмотря на то, что некоторые аддоны (например, NoScript) позволяют избежать утечки IP, может иметь смысл все равно отключить WebRTC "на всякий случай".</p>
+		<p>Несмотря на то, что некоторые расширения (например, NoScript) позволяют избежать утечки IP, может иметь смысл все равно отключить WebRTC "на всякий случай".</p>
 
 		<!-- orange "Test your Browser now" button -->
 		<p>
@@ -1119,46 +1118,90 @@
 		<a class="anchor" name="addons"></a>
 
 		<div class="page-header">
-			<h1><a href="#addons" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Расширения приватности Firefox</h1>
+			<h1><a href="#addons" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Расширения приватности</h1>
 		</div>
 
 		<div class="alert alert-success" role="alert">
-			<strong>Повысь приватность с помощью следующих аддонов Firefox.</strong>
+			<strong>Нижеперечисленные браузерные расширения помогут повысить твою приватность в Интернете.</strong>
 		</div>
-
-
 
 		<h3>Предотвращение трекинга с "Privacy Badger"</h3>
 		<img src="img/addons/Privacy-Badger.gif" class="img-responsive pull-left" alt="Privacy Badger" style="margin-right:30px;">
-		<p><strong>Privacy Badger</strong> - браузерное расширение, блокирующее рекламу и другие сторонние трекеры от скрытой слежки за твоими действиями в Интернете. Privacy Badger самообучается в процессе навигации по запросам к сторонним ресурсам. Внимание: правила блокировки не распространяются на Google Analytics!
-
-		<a href="https://www.eff.org/privacybadger">https://www.eff.org/privacybadger/</a></p>
+		<p><a href="https://www.eff.org/privacybadger">Privacy Badger</a></strong> - браузерное расширение, блокирующее рекламу и другие сторонние трекеры от скрытой слежки за твоими действиями в Интернете.
+			Privacy Badger самообучается в процессе навигации по запросам к сторонним ресурсам.
+			Внимание: правила блокировки не распространяются на Google Analytics! Исходный код: <a href="https://github.com/EFForg/privacybadger">Github</a>
+			<br>
+			<a href="https://addons.mozilla.org/ru/firefox/addon/privacy-badger17/">
+				<button type="button" class="btn btn-success">Privacy Badger для Firefox</button>
+			</a>
+			<a href="https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp">
+				<button type="button" class="btn btn-info">Privacy Badger для Chrome</button>
+			</a>
+			<a href="https://addons.opera.com/ru/extensions/details/privacy-badger">
+				<button type="button" class="btn btn-danger">Privacy Badger для Opera</button>
+			</a>
+		</p>
 
 		<h3>Блокировка реклам и трекеров с "uBlock Origin"</h3>
 		<img src="img/addons/uBlock.gif" class="img-responsive pull-left" alt="uBlock" style="margin-right:30px;">
 		<p>Эффективный и легковесный <a href="https://github.com/gorhill/uBlock/wiki/Blocking-mode">многофункциональный блокировщик</a>, использующий на порядок больше фильтров, чем конкуренты. Монетизация отсутствует, код полностью открыт и <a href="https://github.com/gorhill/uBlock/">доступен на Github</a>. Мы рекомендуем Firefox, однако uBlock Origin поддерживается и другими браузерами, такими как Safari, Opera, и Chromium. В отличие от AdBlock Plus, uBlock не содержит <a href="https://adblockplus.org/acceptable-ads">"допустимой рекламы"</a>.
-		<br />
-			<a href="https://addons.mozilla.org/firefox/addon/ublock-origin/">https://addons.mozilla.org/firefox/addon/ublock-origin/</a>
+		<br>
+			<a href="https://addons.mozilla.org/ru/firefox/addon/ublock-origin/">
+				<button type="button" class="btn btn-success">uBlock Origin для Firefox</button>
+			</a>
+			<a href="https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=ru">
+				<button type="button" class="btn btn-info">uBlock Origin для Chrome</button>
+			</a>
+			<a href="https://addons.opera.com/ru/extensions/details/ublock/">
+				<button type="button" class="btn btn-danger">uBlock Origin для Opera</button>
+			</a>
 		</p>
 
 		<h3>Автоматическая очистка куки с "Cookie AutoDelete"</h3>
 		<img src="img/addons/Cookie-AutoDelete.gif" class="img-responsive pull-left" alt="Cookie AutoDelete" style="margin-right:30px;">
 		<p>Автоматически удаляет куки, когда они больше не используются открытыми браузерными вкладками.
-			<br />
-			<a href="https://addons.mozilla.org/firefox/addon/cookie-autodelete">https://addons.mozilla.org/firefox/addon/cookie-autodelete/</a></p>
+			Предотвращает трекинг и позволяет легко настраивать фильтры исключений.
+			Исходный код: <a href="https://github.com/Cookie-AutoDelete/Cookie-AutoDelete">Github</a>
+			<br>
+				<a href="https://addons.mozilla.org/ru/firefox/addon/cookie-autodelete/">
+					<button type="button" class="btn btn-success">Cookie AutoDelete для Firefox</button>
+				</a>
+				<a href="https://chrome.google.com/webstore/detail/cookie-autodelete/fhcgjolkccmbidfldomjliifgaodjagh?hl=ru">
+					<button type="button" class="btn btn-info">Cookie AutoDelete для Chrome</button>
+				</a>
+		</p>
 
 
 		<h3>Шифрование с "HTTPS Everywhere"</h3>
 		<img src="img/addons/HTTPS-Everywhere.gif" class="img-responsive pull-left" alt="HTTPS Everywhere" style="margin-right:30px;">
-		<p>Расширение для Firefox, Chrome и Opera, которое по умолчанию шифрует трафик для большинства популярных веб-сайтов. Совместное творение The Tor Project и Electronic Frontier Foundation.
-			<br />
-			<a href="https://www.eff.org/https-everywhere">https://www.eff.org/https-everywhere</a></p>
+		<p><a href="https://www.eff.org/https-everywhere">Разработанное EFF расширение</a> для Firefox, Chrome и Opera, которое по умолчанию шифрует трафик для большинства популярных веб-сайтов, перенаправляя пользователя с HTTP-страниц на HTTPS.
+			Исходный код: <a href="https://github.com/efforg/https-everywhere">Github.</a>
+			<br>
+				<a href="https://addons.mozilla.org/ru/firefox/addon/https-everywhere/">
+					<button type="button" class="btn btn-success">HTTPS Everywhere для Firefox</button>
+				</a>
+				<a href="https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp?hl=ru">
+					<button type="button" class="btn btn-info">HTTPS Everywhere для Chrome</button>
+				</a>
+				<a href="https://addons.opera.com/ru/extensions/details/https-everywhere/">
+					<button type="button" class="btn btn-danger">HTTPS Everywhere для Opera</button>
+				</a>
+		</p>
 
 		<h3>Блокировка CDN с "Decentraleyes"</h3>
 		<img src="img/addons/Decentraleyes.gif" class="img-responsive pull-left" alt="HTTPS Everywhere" style="margin-right:30px;">
 		<p>Локально эмулирует CDN посредством перехвата запроса, нахождения запрашиваемого ресурса и вставки его на странице. Все это происходит мгновенно, автоматически и без дополнительных настроек со стороны пользователя. Исходный код: <a href="https://github.com/Synzvato/decentraleyes">GitHub.</a>
-			<br />
-			<a href="https://addons.mozilla.org/firefox/addon/decentraleyes/">https://addons.mozilla.org/firefox/addon/decentraleyes/</a></p>
+			<br>
+				<a href="https://addons.mozilla.org/ru/firefox/addon/decentraleyes/">
+					<button type="button" class="btn btn-success">Decentraleyes для Firefox</button>
+				</a>
+				<a href="https://chrome.google.com/webstore/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj?hl=ru">
+					<button type="button" class="btn btn-info">Decentraleyes для Chrome</button>
+				</a>
+				<a href="https://addons.opera.com/ru/extensions/details/decentraleyes/">
+					<button type="button" class="btn btn-danger">Decentraleyes для Opera</button>
+				</a>
+		</p>
 
 		<br>
 
@@ -1170,17 +1213,28 @@
 		<img src="img/addons/uMatrix.gif" class="img-responsive pull-left" alt="uMatrix" style="margin-right:30px;">
 		<p>Многие веб-сайты включают в себя функционал, позволяющий другим сайтам отслеживать твои действия (например, лайки в Facebook или Google Analytics).
 			uMatrix дает тебе контроль над запросами к сторонним сайтам, позволяя отфильтровывать и принимать решения о данных, которые отправляются наружу.
-			<br />
-			<a href="https://addons.mozilla.org/firefox/addon/umatrix/">https://addons.mozilla.org/firefox/addon/umatrix/</a>
+			Исходный код: <a href="https://github.com/gorhill/uMatrix">Github</a>.
+			<br>
+				<a href="https://addons.mozilla.org/ru/firefox/addon/umatrix/">
+					<button type="button" class="btn btn-success">uMatrix для Firefox</button>
+				</a>
+				<a href="https://chrome.google.com/webstore/detail/umatrix/ogfcmafjalglgifnmanfmnieipoejdcf?hl=ru">
+					<button type="button" class="btn btn-info">uMatrix для Chrome</button>
+				</a>
+				<a href="https://addons.opera.com/ru/extensions/details/umatrix/">
+					<button type="button" class="btn btn-danger">uMatrix для Opera</button>
+				</a>
 		</p>
 
-		<h3>Полный контроль с "NoScript Security Suite"</h3>
+		<h3>Полный контроль приватности с "NoScript Security Suite"</h3>
 		<img src="img/addons/NoScript.gif" class="img-responsive pull-left" alt="NoScript" style="margin-right:30px;">
 		<p>
-			Полностью настраиваемое расширение для разрешения контента Javascript, Java и Flash только на тех сайтах, которым ты доверяешь.
+			<a href="https://noscript.net">NoScript</a> - полностью настраиваемое расширение Firefox для разрешения контента Javascript, Java и Flash только на тех сайтах, которым ты доверяешь.
 			Не подходит для обычных пользователей из-за слишком сложной настройки.
-			<br />
-			<a href="https://addons.mozilla.org/firefox/addon/noscript/">https://addons.mozilla.org/firefox/addon/noscript/</a>
+			<br>
+				<a href="https://addons.mozilla.org/ru/firefox/addon/noscript/">
+					<button type="button" class="btn btn-success">NoScript для Firefox</button>
+				</a>
 		</p>
 
 
@@ -1445,7 +1499,7 @@
 		</div>
 
 
-		<!-- IMs -->
+		<!-- Messengers start -->
 		<a class="anchor" name="im"></a>
 		<div class="page-header">
 			<h1><a href="#im" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Мессенджеры с шифрованием</h1>
@@ -1475,7 +1529,7 @@
 				</div>
 			</div>
 
-   <div class="col-sm-4">
+   		<div class="col-sm-4">
 				<div class="panel panel-info">
 					<div class="panel-heading">
 						<h3 class="panel-title">Wire</h3>
@@ -1493,7 +1547,6 @@
 					</div>
 				</div>
 			</div>
-
 
 			<div class="col-sm-4">
 				<div class="panel panel-warning">
@@ -1534,7 +1587,9 @@
 			<li><a href="https://security.stackexchange.com/a/49802">Telegram encryption isn't secure.</a></li>
 			<li><a href="https://www.reddit.com/r/privacytoolsIO/comments/6r655i/telegram_isnt_safe/">Telegram is marketed as a private messenger, but it's not private by default.</a></li>
 		</ul>
+		<!-- Messengers end -->
 
+		<!-- VoIP start -->
 		<a class="anchor" name="voip"></a>
 		<div class="page-header">
 			<h1><a href="#voip" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a>Голосовые и видеомессенджеры с шифрованием</h1>
@@ -1561,7 +1616,7 @@
 				</div>
 			</div>
 
-   <div class="col-sm-4">
+   		<div class="col-sm-4">
 				<div class="panel panel-info">
 					<div class="panel-heading">
 						<h3 class="panel-title">Wire</h3>
@@ -1597,9 +1652,7 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
-
 
 		<h3>См. также</h3>
 		<ul>
@@ -1613,8 +1666,10 @@
 			<li><a href="https://signal.org/android/apk/">Advanced users with special needs can download the Signal APK directly. Most users should not do this under normal circumstances.</a></li>
 			<li><a href="https://motherboard.vice.com/en_us/article/secure-messaging-app-wire-stores-everyone-youve-ever-contacted-in-plain-text">Secure Messaging App Wire Stores Everyone You've Ever Contacted in Plain Text | Motherboard</a></li>
 		</ul>
+		<!-- VoIP end -->
 
 
+		<!-- File share start -->
 		<a class="anchor" name="filesharing"></a>
 		<div class="page-header">
 			<h1><a href="#filesharing" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> ПО для обмена файлами</h1>
@@ -1660,147 +1715,10 @@
 				</div>
 			</div>
 		</div>
-
-		<a class="anchor" name="cloud"></a>
-		<div class="page-header">
-			<h1><a href="#cloud" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Зашифрованные облачные хранилища</h1>
-		</div>
-
-		<div class="alert alert-warning" role="alert">
-			<strong>Если ты используешь такие облачные хранилища как Dropbox, Google Drive, Microsoft OneDrive или Apple iCloud, мы рекомендуем выбрать одну из перечисленных альтернатив.</strong>
-		</div>
-
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="panel panel-success">
-					<div class="panel-heading">
-						<h3 class="panel-title">Seafile</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Seafile.png" alt="Seafile" align="right" style="margin-left:5px;">Seafile предлагает 100 Gb хранилища за 10$ в месяц, а также дает возможность хостинга на собственном сервере.
-							Данные расположены в Германии, либо в облаке AWS в США. Файлы шифруются заданным пользователем паролем. </p>
-						<p>
-							<a href="http://seafile.com/">
-								<button type="button" class="btn btn-success">Веб-сайт: seafile.com</button>
-							</a>
-						</p>
-						<p>Клиентская OS: Windows, Mac, Linux, iOS, Android. Сервер: Linux, Raspberry Pi, Windows.</p>
-					</div>
-				</div>
-			</div>
+		<!-- File share end -->
 
 
-			<div class="col-sm-4">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3 class="panel-title">Nextcloud</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/provider/Nextcloud.png" alt="Nextcloud" align="right" style="margin-left:5px;">Бесплатное ПО с открытым исходным кодом как замена Dropbox,
-							с возможностью установки и безлимитного использования на собственном сервере. </p>
-						<p>
-							<a href="https://nextcloud.com/">
-								<button type="button" class="btn btn-info">Веб-сайт: nextcloud.com</button>
-							</a>
-						</p>
-						<p>Клиентская OS: Windows, Mac, Linux, BSD, Unix, iOS, Android, Fire OS. Сервер: Linux.</p>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="panel panel-warning">
-					<div class="panel-heading">
-						<h3 class="panel-title">Least Authority S4</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/provider/S4.jpg" alt="S4" align="right" style="margin-left:5px;">Безопасная система бэкапов со 100% клиентским шифрованием и открытым исходным кодом.
-							Сервера расположены в облаке Amazon S3 в США. </p>
-						<p>
-							<a href="https://leastauthority.com/">
-								<button type="button" class="btn btn-warning">Веб-сайт: leastauthority.com</button>
-							</a>
-						</p>
-						<p>OS: <a href="https://tahoe-lafs.org/trac/tahoe-lafs/wiki/Installation">Linux</a>, <a href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/quickstart.rst"> Windows, Mac, OpenSolaris, BSD.</a> </p>
-					</div>
-				</div>
-			</div>
-
-		</div>
-
-		<h3>См. также</h3>
-		<ul>
-			<li><a href="https://muonium.io">Muonium</a> - бесплатное зашифрованное облачное хранилище.</li>
-			<li><a href="https://cryptomator.org/">Cryptomator</a> - бесплатное открытое ПО для клиентского шифрования файлов перед загрузкой в облако.</li>
-		</ul>
-
-		<a class="anchor" name="mycloud"></a>
-		<div class="page-header">
-			<h1><a href="#mycloud" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Облачные хранилища с хостингом на твоем сервере</h1>
-		</div>
-		<div class="alert alert-warning" role="alert">
-			<strong>Если ты используешь такие облачные хранилища как Dropbox, Google Drive, Microsoft OneDrive или Apple iCloud, мы рекомендуем подумать о хостинге на своем сервере.</strong>
-		</div>
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="panel panel-success">
-					<div class="panel-heading">
-						<h3 class="panel-title">Seafile</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Seafile.png" alt="Seafile" align="right" style="margin-left:5px;">Seafile is a file hosting software system. Files are stored on a central server and can by synchronized with personal computers and mobile devices via the Seafile
-							client. Files can also be accessed via the server's web interface.</p>
-						<p>
-							<a href="http://seafile.com/">
-								<button type="button" class="btn btn-success">Веб-сайт: seafile.com</button>
-							</a>
-						</p>
-						<p>Клиентская OS: Windows, Mac, Linux, iOS, Android. Server: Linux, Raspberry Pi, Windows.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="panel panel-info">
-					<div class="panel-heading">
-						<h3 class="panel-title">Pydio</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Pydio.png" alt="Pydio" align="right" style="margin-left:5px;">Открытое ПО, моментально превращающее любой сервер (собственный или облачный) в файлообменную платформу, как альтернативу разного рода облачным "Boxes" и "Drives".
-							По сравнению со стандартными решениями обеспечивает больший контроль, безопасность и приватность.</p>
-						<p>
-							<a href="https://pydio.com/">
-								<button type="button" class="btn btn-info">Веб-сайт: pydio.com</button>
-							</a>
-						</p>
-						<p>OS: Windows, Mac, Linux, iOS, Android.</p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-4">
-				<div class="panel panel-warning">
-					<div class="panel-heading">
-						<h3 class="panel-title">Tahoe-LAFS</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Tahoe-LAFS.png" alt="Tahoe-LAFS" align="right" style="margin-left:5px;">Бесплатное облачное хранилище с открытым исходным кодом.
-							В целях дополнительной устойчивости размещает данные сразу на нескольких серверах, обеспечивая при этом высокие стандарты безопасности и приватности.</p>
-						<p>
-							<a href="https://www.tahoe-lafs.org/">
-								<button type="button" class="btn btn-warning">Веб-сайт: tahoe-lafs.org</button>
-							</a>
-						</p>
-						<p>OS: Windows, Mac, Linux.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<h3>См. также</h3>
-		<ul>
-			<li>
-				<a href="https://nextcloud.com/">Nextcloud</a> - Free and open-source, allows anyone to install and operate it for free on a private server, with no limits on storage space or the number of connected clients.
-			</li>
-			<li><a href="https://muonium.io">Muonium</a> - бесплатное зашифрованное облачное хранилище.</li>
-		</ul>
+		<!-- Secure file sync start -->
 		<a class="anchor" name="sync"></a>
 		<div class="page-header">
 			<h1><a href="#sync" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Secure File Sync Software</h1>
@@ -1865,6 +1783,10 @@
 				whether due to limitations in memory, time, or disk space.
 			</li>
 		</ul>
+		<!-- Secure file sync end -->
+
+
+		<!-- Password managers start -->
 		<a class="anchor" name="pw"></a>
 		<div class="page-header">
 			<h1><a href="#pw" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Менеджеры паролей</h1>
@@ -1873,7 +1795,6 @@
 			<strong>Если ты используешь такие менеджеры паролей как 1Password, LastPass, Roboform или iCloud Keychain, мы рекомендуем выбрать одну из перечисленных альтернатив.</strong>
 		</div>
 		<div class="row">
-
 
 			<div class="col-sm-4">
 				<div class="panel panel-success">
@@ -1911,7 +1832,6 @@
 					</div>
 				</div>
 			</div>
-
 
 			<div class="col-sm-4">
 				<div class="panel panel-warning">
@@ -1952,87 +1872,10 @@
 		<ul>
 			<li><a href="https://www.youtube.com/watch?v=yzGzB-yYKcc">Edward Snowden on Passwords - YouTube</a></li>
 		</ul>
+		<!-- Password managers end -->
 
 
-		<!-- Key disclosure law -->
-		<a class="anchor" name="kdl"></a>
-		<div class="page-header">
-			<h1><a href="#kdl" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Закон о раскрытии ключей шифрования</h1>
-		</div>
-
-
-		<h3>Who is required to hand over the encryption keys to authorities?</h3>
-		<p>Mandatory <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">key disclosure laws</a> require individuals to turn over encryption keys to law enforcement conducting a criminal investigation. How these laws are implemented (who may be legally compelled to assist) vary from nation to nation, but a warrant
-			is generally required. Defenses against key disclosure laws include steganography and encrypting data in a way that provides plausible deniability.</p>
-
-
-		<p><a href="https://ru.wikipedia.org/wiki/Стеганография">Стеганография</a> involves hiding sensitive information (which may be encrypted) inside of ordinary data (for example, encrypting an image file and then hiding it in an audio file). With plausible deniability, data is encrypted in a way that prevents an
-			adversary from being able to prove that the information they are after exists (for example, one password may decrypt benign data and another password, used on the same file, could decrypt sensitive data).</p>
-		<br>
-
-		<!-- Chart of key disclosure law in some countries -->
-		<div class="row">
-
-			<div class="col-sm-4">
-				<div class="panel panel-danger">
-					<div class="panel-heading">
-						<h3 class="panel-title">Key disclosure laws apply</h3>
-					</div>
-					<div class="panel-body">
-						1. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Antigua_and_Barbuda">Антигуа и Барбуда</a> <div class="pull-right"><span class="flag-icon flag-icon-ag"></span></div>
-						<br /> 2. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Australia">Австралия</a> <div class="pull-right"><span class="flag-icon flag-icon-au"></span></div>
-						<br /> 3. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Canada">Канада</a> <div class="pull-right"><span class="flag-icon flag-icon-ca"></span></div>
-						<br /> 4. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#France">Франция</a> <div class="pull-right"><span class="flag-icon flag-icon-fr"></span></div>
-						<br /> 5. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#India">Индия</a> <div class="pull-right"><span class="flag-icon flag-icon-in"></span></div>
-						<br /> 6. <a href="https://edri.org/Norway-introduces-forced-biometric-authentication/">Норвегия</a> <div class="pull-right"><span class="flag-icon flag-icon-no"></span></div>
-						<br /> 7. <a href="https://www.vesti.ru/doc.html?id=3001000">Россия</a> <div class="pull-right"><span class="flag-icon flag-icon-ru"></span></div>
-						<br /> 8. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#South_Africa">ЮАР</a> <div class="pull-right"><span class="flag-icon flag-icon-za"></span></div>
-						<br /> 9. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_Kingdom">Великобритания</a> <div class="pull-right"><span class="flag-icon flag-icon-gb"></span></div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="panel panel-warning">
-					<div class="panel-heading">
-						<h3 class="panel-title">Key disclosure laws may apply</h3>
-					</div>
-					<div class="panel-body">
-						1. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Belgium">Бельгия *</a> <div class="pull-right"><span class="flag-icon flag-icon-be"></span></div>
-						<br /> 2. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Finland">Финляндия *</a> <div class="pull-right"><span class="flag-icon flag-icon-fi"></span></div>
-						<br /> 3. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#New_Zealand">Новая Зеландия</a> (нет четкой позиции) <div class="pull-right"><span class="flag-icon flag-icon-nz"></span></div>
-						<br /> 4. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Sweden">Швеция</a> (proposed) <div class="pull-right"><span class="flag-icon flag-icon-se"></span></div>
-						<br /> 5. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#The_Netherlands"> Нидерланды *</a> <div class="pull-right"><span class="flag-icon flag-icon-nl"></span></div>
-						<br /> 6. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_States">США</a> (see related information) <div class="pull-right"><span class="flag-icon flag-icon-us"></span></div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="panel panel-success">
-					<div class="panel-heading">
-						<h3 class="panel-title">Key disclosure laws don't apply</h3>
-					</div>
-					<div class="panel-body">
-						1. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Czech_Republic">Чехия</a> <div class="pull-right"><span class="flag-icon flag-icon-cz"></span></div>
-						<br /> 2. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Польша">Польша</a> <div class="pull-right"><span class="flag-icon flag-icon-pl"></span></div>
-
-					</div>
-				</div>
-			</div>
-
-		</div>
-		<!-- end Chart of key disclosure law in some countries -->
-
-		<p> * (people who know how to access a system may be ordered to share their knowledge, <strong>however, this doesn't apply to the suspect itself or family members.</strong>)</p>
-
-		<h3>Дополнительная информация</h3>
-		<ul>
-			<li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law">Wikipedia page on key disclosure law</a></li>
-			<li><a href="https://law.stackexchange.com/questions/1523/can-a-us-citizen-be-required-to-provide-the-authentication-key-for-encrypted-dat">law.stackexchange.com question about key disclosure law in US</a></li>
-			<li><a href="https://www.youtube.com/watch?v=Jt7D4AIfqlQ">DEFCON 20: Crypto and the Cops: the Law of Key Disclosure and Forced Decryption</a></li>
-		</ul>
-
+		<!-- Encryption tools start -->
 		<a class="anchor" name="encrypt"></a>
 		<div class="page-header">
 			<h1><a href="#encrypt" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Утилиты для шифрования</h1>
@@ -2113,7 +1956,10 @@
 			<li><a href="https://diskcryptor.net/">DiskCryptor</a> - ПО для шифрования разделов / диска (в т.ч. установочного) для Windows.</li>
       <li><a href="https://gitlab.com/cryptsetup/cryptsetup/">Linux Unified Key Setup (LUKS)</a> - утилита для шифрования диска посредством dm-crypt, по умолчанию встроенная в Ubuntu. Доступно для Windows и Linux.</li>
 		</ul>
+		<!-- Encryption tools end -->
 
+
+		<!-- Darknets start -->
 		<a class="anchor" name="darknets"></a>
 		<div class="page-header">
 			<h1><a href="#darknets" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Анонимные сети</h1>
@@ -2164,8 +2010,6 @@
 				</div>
 			</div>
 
-
-
 			<div class="col-sm-4">
 				<div class="panel panel-warning">
 					<div class="panel-heading">
@@ -2183,7 +2027,6 @@
 					</div>
 				</div>
 			</div>
-
 		</div>
 
 		<h3>См. также</h3>
@@ -2196,7 +2039,10 @@
 		<ul>
 			<li><a href="https://ru.wikipedia.org/wiki/Анонимные_сети">Подробное описание других анонимных сетей [Википедия].</a></li>
 		</ul>
+		<!-- Darknets end -->
 
+
+		<!-- Decentralized networks start -->
 		<a class="anchor" name="social"></a>
 				<div class="page-header">
 					<h1><a href="#social" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Децентрализованные социальные сети</h1>
@@ -2258,7 +2104,7 @@
 					</div>
 				</div>
 
-                <h3>См. также</h3>
+		<h3>См. также</h3>
 		<ul>
 			<li><a href="https://gnu.io/social/">GNU social</a> - один из первых бесплатных серверов микроблоггинга с открытым исходным кодом. </li>
 			<li><a href="https://project.hubzilla.org/page/hubzilla/ru/hubzilla-project">Hubzilla</a> - мощная платформа для создания сетей коммуникации с кочевнической системой идентификации и средствами гибкого управления доступом.</li>
@@ -2270,43 +2116,53 @@
 			<li><a href="https://geektimes.ru/post/291629/">О слежке во Вконтакте</a> - результаты исследования официального мобильного приложения на предмет собираемых данных.</li>
 			<li><a href="https://addons.mozilla.org/firefox/addon/facebook-container/">Facebook Container от Mozilla</a> - расширение Firefox, позволяющее изолировать твою личность в социальной сети от твоей активности за её пределами.</li>
 		</ul>
+		<!-- Decentralized networks end -->
 
 
-		<a class="anchor" name="dns"></a>
+		<!-- Cloud storages start -->
+		<a class="anchor" name="cloud"></a>
 		<div class="page-header">
-			<h1><a href="#dns" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Система доменных имен (DNS)</h1>
+			<h1><a href="#cloud" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Зашифрованные облачные хранилища</h1>
+		</div>
+
+		<div class="alert alert-warning" role="alert">
+			<strong>Если ты используешь такие облачные хранилища как Dropbox, Google Drive, Microsoft OneDrive или Apple iCloud, мы рекомендуем выбрать одну из перечисленных альтернатив.</strong>
 		</div>
 
 		<div class="row">
-
 			<div class="col-sm-4">
 				<div class="panel panel-success">
 					<div class="panel-heading">
-						<h3 class="panel-title">Njalla - Domain Registration</h3>
+						<h3 class="panel-title">Seafile</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/provider/Njalla.png" alt="Njalla" align="right" style="margin-left:5px;">Njalla only needs your email or an jabber address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service.</p>
+						<p><img src="img/tools/Seafile.png" alt="Seafile" align="right" style="margin-left:5px;">Seafile предлагает 100 Gb хранилища за 10$ в месяц, а также дает возможность хостинга на собственном сервере.
+							Данные расположены в Германии, либо в облаке AWS в США. Файлы шифруются заданным пользователем паролем. </p>
 						<p>
-							<a href="https://njal.la/">
-								<button type="button" class="btn btn-success">Веб-сайт: njal.la</button>
+							<a href="http://seafile.com/">
+								<button type="button" class="btn btn-success">Веб-сайт: seafile.com</button>
 							</a>
 						</p>
+						<p>Клиентская OS: Windows, Mac, Linux, iOS, Android. Сервер: Linux, Raspberry Pi, Windows.</p>
 					</div>
 				</div>
 			</div>
 
+
 			<div class="col-sm-4">
 				<div class="panel panel-info">
 					<div class="panel-heading">
-						<h3 class="panel-title">DNSCrypt - Tool</h3>
+						<h3 class="panel-title">Nextcloud</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/DNSCrypt.png" alt="DNSCrypt" align="right" style="margin-left:5px;">A protocol for securing communications between a client and a DNS resolver. The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography and
-							is very similar to DNSCurve, but focuses on securing communications between a client and its first-level resolver.</p>
+						<p><img src="img/provider/Nextcloud.png" alt="Nextcloud" align="right" style="margin-left:5px;">Бесплатное ПО с открытым исходным кодом как замена Dropbox,
+							с возможностью установки и безлимитного использования на собственном сервере. </p>
 						<p>
-							<b> Please refrain from using DNSCrypt until further notice (DNSCrypt v2 in development, no official website yet). </b>
+							<a href="https://nextcloud.com/">
+								<button type="button" class="btn btn-info">Веб-сайт: nextcloud.com</button>
+							</a>
 						</p>
-						<p>OS: Windows, Mac, Linux, iOS with Jailbreak.</p>
+						<p>Клиентская OS: Windows, Mac, Linux, BSD, Unix, iOS, Android, Fire OS. Сервер: Linux.</p>
 					</div>
 				</div>
 			</div>
@@ -2314,29 +2170,103 @@
 			<div class="col-sm-4">
 				<div class="panel panel-warning">
 					<div class="panel-heading">
-						<h3 class="panel-title">OpenNIC - Service</h3>
+						<h3 class="panel-title">Least Authority S4</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/OpenNIC.png" alt="OpenNIC" align="right" style="margin-left:5px;">OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries. Like all alternative
-							root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet. Only specific configuration in one's DNS resolver makes these reachable, and very few Internet service providers have this configuration.</p>
+						<p><img src="img/provider/S4.jpg" alt="S4" align="right" style="margin-left:5px;">Безопасная система бэкапов со 100% клиентским шифрованием и открытым исходным кодом.
+							Сервера расположены в облаке Amazon S3 в США. </p>
 						<p>
-							<a href="http://www.opennicproject.org/">
-								<button type="button" class="btn btn-warning">Веб-сайт: opennicproject.org</button>
+							<a href="https://leastauthority.com/">
+								<button type="button" class="btn btn-warning">Веб-сайт: leastauthority.com</button>
 							</a>
 						</p>
+						<p>OS: <a href="https://tahoe-lafs.org/trac/tahoe-lafs/wiki/Installation">Linux</a>, <a href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/quickstart.rst"> Windows, Mac, OpenSolaris, BSD.</a> </p>
 					</div>
 				</div>
 			</div>
-
 
 		</div>
 
 		<h3>См. также</h3>
 		<ul>
-			<li><a href="https://github.com/quidsup/notrack">NoTrack</a> - A network-wide DNS server which blocks Tracking sites. Currently works in Debian and Ubuntu.</li>
-			<li><a href="https://namecoin.info/">Namecoin</a> - A decentralized DNS open source information registration and transfer system based on the Bitcoin cryptocurrency.</li>
+			<li><a href="https://muonium.io">Muonium</a> - бесплатное зашифрованное облачное хранилище.</li>
+			<li><a href="https://cryptomator.org/">Cryptomator</a> - бесплатное открытое ПО для клиентского шифрования файлов перед загрузкой в облако.</li>
 		</ul>
+		<!-- Cloud storages end -->
 
+
+		<!-- Cloud self-storages start -->
+		<a class="anchor" name="mycloud"></a>
+		<div class="page-header">
+			<h1><a href="#mycloud" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Облачные хранилища с хостингом на твоем сервере</h1>
+		</div>
+		<div class="alert alert-warning" role="alert">
+			<strong>Если ты используешь такие облачные хранилища как Dropbox, Google Drive, Microsoft OneDrive или Apple iCloud, мы рекомендуем подумать о хостинге на своем сервере.</strong>
+		</div>
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">Seafile</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/Seafile.png" alt="Seafile" align="right" style="margin-left:5px;">Seafile is a file hosting software system. Files are stored on a central server and can by synchronized with personal computers and mobile devices via the Seafile
+							client. Files can also be accessed via the server's web interface.</p>
+						<p>
+							<a href="http://seafile.com/">
+								<button type="button" class="btn btn-success">Веб-сайт: seafile.com</button>
+							</a>
+						</p>
+						<p>Клиентская OS: Windows, Mac, Linux, iOS, Android. Server: Linux, Raspberry Pi, Windows.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">Pydio</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/Pydio.png" alt="Pydio" align="right" style="margin-left:5px;">Открытое ПО, моментально превращающее любой сервер (собственный или облачный) в файлообменную платформу, как альтернативу разного рода облачным "Boxes" и "Drives".
+							По сравнению со стандартными решениями обеспечивает больший контроль, безопасность и приватность.</p>
+						<p>
+							<a href="https://pydio.com/">
+								<button type="button" class="btn btn-info">Веб-сайт: pydio.com</button>
+							</a>
+						</p>
+						<p>OS: Windows, Mac, Linux, iOS, Android.</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-4">
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						<h3 class="panel-title">Tahoe-LAFS</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/Tahoe-LAFS.png" alt="Tahoe-LAFS" align="right" style="margin-left:5px;">Бесплатное облачное хранилище с открытым исходным кодом.
+							В целях дополнительной устойчивости размещает данные сразу на нескольких серверах, обеспечивая при этом высокие стандарты безопасности и приватности.</p>
+						<p>
+							<a href="https://www.tahoe-lafs.org/">
+								<button type="button" class="btn btn-warning">Веб-сайт: tahoe-lafs.org</button>
+							</a>
+						</p>
+						<p>OS: Windows, Mac, Linux.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h3>См. также</h3>
+		<ul>
+			<li>
+				<a href="https://nextcloud.com/">Nextcloud</a> - Free and open-source, allows anyone to install and operate it for free on a private server, with no limits on storage space or the number of connected clients.
+			</li>
+			<li><a href="https://muonium.io">Muonium</a> - бесплатное зашифрованное облачное хранилище.</li>
+		</ul>
+		<!-- Cloud self-storages end -->
+
+
+		<!-- Digital notebook start -->
 		<a class="anchor" name="notebook"></a>
 		<div class="page-header">
 			<h1><a href="#notebook" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Digital Notebook</h1>
@@ -2382,32 +2312,33 @@
 				</div>
 			</div>
 
-            <div class="col-sm-4">
-                <div class="panel panel-warning">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Standard Notes</h3>
-                    </div>
-                    <div class="panel-body">
-                        <p><img src="img/tools/StandardNotes.png" alt="StandardNotes" align="right" style="margin-left:5px;">Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors.<p>
-                        <p>
-                            <a href="https://standardnotes.org/">
-                                <button type="button" class="btn btn-warning">Веб-сайт: standardnotes.org</button>
-                            </a>
-                        </p>
-                        <p>OS: Windows, Mac, Linux, iOS, Android, Web.</p>
-                    </div>
-                </div>
-            </div>
-
-
+      <div class="col-sm-4">
+          <div class="panel panel-warning">
+              <div class="panel-heading">
+                  <h3 class="panel-title">Standard Notes</h3>
+              </div>
+              <div class="panel-body">
+                  <p><img src="img/tools/StandardNotes.png" alt="StandardNotes" align="right" style="margin-left:5px;">Standard Notes is a simple and private notes app that makes your notes easy and available everywhere you are. Features end-to-end encryption on every platform, and a powerful desktop experience with themes and custom editors.<p>
+                  <p>
+                     <a href="https://standardnotes.org/">
+                          <button type="button" class="btn btn-warning">Веб-сайт: standardnotes.org</button>
+                     </a>
+                  </p>
+                  <p>OS: Windows, Mac, Linux, iOS, Android, Web.</p>
+              </div>
+          </div>
+      </div>
 		</div>
 
 		<h3>См. также</h3>
 		<ul>
 			<li><a href="http://paperwork.rocks/">Paperwork</a> - Open source and self-hosted solution. For PHP / MySQL servers.</li>
 		</ul>
+		<!-- Digital notebook end -->
 
-<a class="anchor" name="paste"></a>
+
+		<!-- Paste services start -->
+		<a class="anchor" name="paste"></a>
       <div class="page-header">
         <h1><a href="#paste" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Paste Services</h1>
       </div>
@@ -2424,7 +2355,7 @@
               <p><a href="https://ghostbin.com/"><button type="button" class="btn btn-success">Веб-сайт: ghostbin.com</button></a></p>
             </div>
           </div>
-        </div><!-- /.col-sm-4 -->
+        </div>
         <div class="col-sm-4">
           <div class="panel panel-info">
             <div class="panel-heading">
@@ -2436,7 +2367,7 @@
               <p><a href="https://privatebin.info/"><button type="button" class="btn btn-info">Веб-сайт: privatebin.info</button></a></p>
             </div>
           </div>
-        </div><!-- /.col-sm-4 -->
+        </div>
         <div class="col-sm-4">
           <div class="panel panel-warning">
             <div class="panel-heading">
@@ -2448,7 +2379,7 @@
               <p><a href="https://0bin.net/"><button type="button" class="btn btn-warning">Веб-сайт: 0bin.net</button></a></p>
             </div>
           </div>
-        </div><!-- /.col-sm-4 -->
+        </div>
       </div>
 
   <h3>См. также</h3>
@@ -2456,9 +2387,11 @@
 	  <li><a href="https://disroot.org/">disroot.org</a> - Free privacy friendly service that offers PrivateBin and other applications.</li>
 	  <li><a href="https://hastebin.com/">hastebin.com</a> - Haste is an open-source pastebin software written in node.js, which is easily installable in any network.</li>
   </ul>
+	<!-- Paste services end -->
 
 
-		<a class="anchor" name="productivity"></a>
+	<!-- Productivity start -->
+	<a class="anchor" name="productivity"></a>
 		<div class="page-header">
 			<h1><a href="#productivity" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Онлайн-редакторы</h1>
 		</div>
@@ -2523,9 +2456,159 @@
 			<li><a href="https://disroot.org/">disroot.org</a> - Free privacy friendly service that offers Etherpad, EtherCalc and PrivateBin.</li>
 			<li><a href="https://dudle.inf.tu-dresden.de/privacy/">dudle</a> - An online scheduling application, which is free and OpenSource. Schedule meetings or make small online polls. No email collection or the need of registration.</li>
 		</ul>
+		<!-- Productivity end -->
 
 
+		<!-- Key disclosure law -->
+		<a class="anchor" name="kdl"></a>
+		<div class="page-header">
+			<h1><a href="#kdl" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Закон о раскрытии ключей шифрования</h1>
+		</div>
 
+
+		<h3>Who is required to hand over the encryption keys to authorities?</h3>
+		<p>Mandatory <a href="https://en.wikipedia.org/wiki/Key_disclosure_law">key disclosure laws</a> require individuals to turn over encryption keys to law enforcement conducting a criminal investigation. How these laws are implemented (who may be legally compelled to assist) vary from nation to nation, but a warrant
+			is generally required. Defenses against key disclosure laws include steganography and encrypting data in a way that provides plausible deniability.</p>
+
+
+		<p><a href="https://ru.wikipedia.org/wiki/Стеганография">Стеганография</a> involves hiding sensitive information (which may be encrypted) inside of ordinary data (for example, encrypting an image file and then hiding it in an audio file). With plausible deniability, data is encrypted in a way that prevents an
+			adversary from being able to prove that the information they are after exists (for example, one password may decrypt benign data and another password, used on the same file, could decrypt sensitive data).</p>
+		<br>
+
+		<!-- Chart of key disclosure law in some countries -->
+		<div class="row">
+
+			<div class="col-sm-4">
+				<div class="panel panel-danger">
+					<div class="panel-heading">
+						<h3 class="panel-title">Key disclosure laws apply</h3>
+					</div>
+					<div class="panel-body">
+						1. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Antigua_and_Barbuda">Антигуа и Барбуда</a> <div class="pull-right"><span class="flag-icon flag-icon-ag"></span></div>
+						<br /> 2. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Australia">Австралия</a> <div class="pull-right"><span class="flag-icon flag-icon-au"></span></div>
+						<br /> 3. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Canada">Канада</a> <div class="pull-right"><span class="flag-icon flag-icon-ca"></span></div>
+						<br /> 4. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#France">Франция</a> <div class="pull-right"><span class="flag-icon flag-icon-fr"></span></div>
+						<br /> 5. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#India">Индия</a> <div class="pull-right"><span class="flag-icon flag-icon-in"></span></div>
+						<br /> 6. <a href="https://edri.org/Norway-introduces-forced-biometric-authentication/">Норвегия</a> <div class="pull-right"><span class="flag-icon flag-icon-no"></span></div>
+						<br /> 7. <a href="https://www.vesti.ru/doc.html?id=3001000">Россия</a> <div class="pull-right"><span class="flag-icon flag-icon-ru"></span></div>
+						<br /> 8. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#South_Africa">ЮАР</a> <div class="pull-right"><span class="flag-icon flag-icon-za"></span></div>
+						<br /> 9. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_Kingdom">Великобритания</a> <div class="pull-right"><span class="flag-icon flag-icon-gb"></span></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						<h3 class="panel-title">Key disclosure laws may apply</h3>
+					</div>
+					<div class="panel-body">
+						1. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Belgium">Бельгия *</a> <div class="pull-right"><span class="flag-icon flag-icon-be"></span></div>
+						<br /> 2. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Finland">Финляндия *</a> <div class="pull-right"><span class="flag-icon flag-icon-fi"></span></div>
+						<br /> 3. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#New_Zealand">Новая Зеландия</a> (нет четкой позиции) <div class="pull-right"><span class="flag-icon flag-icon-nz"></span></div>
+						<br /> 4. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Sweden">Швеция</a> (proposed) <div class="pull-right"><span class="flag-icon flag-icon-se"></span></div>
+						<br /> 5. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#The_Netherlands"> Нидерланды *</a> <div class="pull-right"><span class="flag-icon flag-icon-nl"></span></div>
+						<br /> 6. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#United_States">США</a> (see related information) <div class="pull-right"><span class="flag-icon flag-icon-us"></span></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">Key disclosure laws don't apply</h3>
+					</div>
+					<div class="panel-body">
+						1. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Czech_Republic">Чехия</a> <div class="pull-right"><span class="flag-icon flag-icon-cz"></span></div>
+						<br /> 2. <a href="https://en.wikipedia.org/wiki/Key_disclosure_law#Польша">Польша</a> <div class="pull-right"><span class="flag-icon flag-icon-pl"></span></div>
+
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<!-- end Chart of key disclosure law in some countries -->
+
+		<p> * (people who know how to access a system may be ordered to share their knowledge, <strong>however, this doesn't apply to the suspect itself or family members.</strong>)</p>
+
+		<h3>Дополнительная информация</h3>
+		<ul>
+			<li><a href="https://en.wikipedia.org/wiki/Key_disclosure_law">Wikipedia page on key disclosure law</a></li>
+			<li><a href="https://law.stackexchange.com/questions/1523/can-a-us-citizen-be-required-to-provide-the-authentication-key-for-encrypted-dat">law.stackexchange.com question about key disclosure law in US</a></li>
+			<li><a href="https://www.youtube.com/watch?v=Jt7D4AIfqlQ">DEFCON 20: Crypto and the Cops: the Law of Key Disclosure and Forced Decryption</a></li>
+		</ul>
+		<!-- Key disclosure end -->
+
+
+		<!-- DNS start -->
+		<a class="anchor" name="dns"></a>
+		<div class="page-header">
+			<h1><a href="#dns" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Система доменных имен (DNS)</h1>
+		</div>
+
+		<div class="row">
+
+			<div class="col-sm-4">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<h3 class="panel-title">Njalla - Domain Registration</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/provider/Njalla.png" alt="Njalla" align="right" style="margin-left:5px;">Njalla only needs your email or an jabber address in order to register a domain name for you. Created by people from The Pirate Bay and IPredator VPN. Accepted Payments: Bitcoin, Litecoin, Monero, DASH, Bitcoin Cash and PayPal. A privacy-aware domain registration service.</p>
+						<p>
+							<a href="https://njal.la/">
+								<button type="button" class="btn btn-success">Веб-сайт: njal.la</button>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">DNSCrypt - Tool</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/DNSCrypt.png" alt="DNSCrypt" align="right" style="margin-left:5px;">A protocol for securing communications between a client and a DNS resolver. The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography and
+							is very similar to DNSCurve, but focuses on securing communications between a client and its first-level resolver.</p>
+						<p>
+							<b> Please refrain from using DNSCrypt until further notice (DNSCrypt v2 in development, no official website yet). </b>
+						</p>
+						<p>OS: Windows, Mac, Linux, iOS with Jailbreak.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="panel panel-warning">
+					<div class="panel-heading">
+						<h3 class="panel-title">OpenNIC - Service</h3>
+					</div>
+					<div class="panel-body">
+						<p><img src="img/tools/OpenNIC.png" alt="OpenNIC" align="right" style="margin-left:5px;">OpenNIC is an alternate network information center/alternative DNS root which lists itself as an alternative to ICANN and its registries. Like all alternative
+							root DNS systems, OpenNIC-hosted domains are unreachable to the vast majority of the Internet. Only specific configuration in one's DNS resolver makes these reachable, and very few Internet service providers have this configuration.</p>
+						<p>
+							<a href="http://www.opennicproject.org/">
+								<button type="button" class="btn btn-warning">Веб-сайт: opennicproject.org</button>
+							</a>
+						</p>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+
+		<h3>См. также</h3>
+		<ul>
+			<li><a href="https://github.com/quidsup/notrack">NoTrack</a> - A network-wide DNS server which blocks Tracking sites. Currently works in Debian and Ubuntu.</li>
+			<li><a href="https://namecoin.info/">Namecoin</a> - A decentralized DNS open source information registration and transfer system based on the Bitcoin cryptocurrency.</li>
+		</ul>
+		<!-- DNS end -->
+
+
+		<!-- PC OS start -->
 		<a class="anchor" name="os"></a>
 		<div class="page-header">
 			<h1><a href="#os" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> PC Operating Systems</h1>
@@ -2569,6 +2652,7 @@
 					</div>
 				</div>
 			</div>
+
 			<div class="col-sm-4">
 				<div class="panel panel-warning">
 					<div class="panel-heading">
@@ -2602,7 +2686,10 @@
 			<li><a href="https://subgraph.com/">Subgraph OS</a> - Another Debian based Linux distribution, it features security hardening which makes it more resistant to security vulnerabilities. Subgraph runs many desktop applications in a security sandbox to limit their risk in case of compromise.
 				By default, it anonymizes Internet traffic by sending it through the Tor network. Note: It is still in alpha, and much testing and bug fixing still has to be done.</li>
 		</ul>
+		<!-- PC OS end -->
 
+
+		<!-- Live OS start -->
 		<a class="anchor" name="live_os"></a>
 		<div class="page-header">
 			<h1><a href="#live_os" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Live CD Operating Systems</h1>
@@ -2719,9 +2806,6 @@
 					</div>
 				</div>
 			</div>
-
-
-
 		</div>
 		<h3>См. также</h3>
 		<ul>
@@ -2729,12 +2813,14 @@
 			<li><a href="http://omnirom.org/">OmniROM</a> - A free software operating system for smartphones and tablet computers, based on the Android mobile platform.</li>
 			<li><a href="https://microg.org/">MicroG</a> - A project that aims to reimplement the proprietary Google Play Services in the Android operating sytem with a FLOSS replacement.
 		</ul>
+		<!-- Live OS end -->
+
 
 		<!-- Android add-ons -->
 		<a class="anchor" name="aaddons"></a>
 
 		<div class="page-header">
-			<h1><a href="#aaddons" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Аддоны приватности для Android</h1>
+			<h1><a href="#aaddons" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Расширения приватности для Android</h1>
 		</div>
 
 		<div class="alert alert-success" role="alert">
