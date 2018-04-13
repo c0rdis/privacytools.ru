@@ -121,7 +121,7 @@
 							<li><a href="#im">Мессенджеры с шифрованием</a></li>
 							<li><a href="#voip">Голосовые и видеомессенджеры</a></li>
 							<li><a href="#filesharing">ПО для обмена файлами</a></li>
-							<li><a href="#sync">Secure File Sync</a></li>
+							<li><a href="#sync">ПО для синхронизации данных</a></li>
 							<li><a href="#pw">Менеджеры паролей</a></li>
 							<li><a href="#encrypt">Утилиты для шифрования</a></li>
 						</ul>
@@ -1853,7 +1853,7 @@
 		<!-- Secure file sync start -->
 		<a class="anchor" name="sync"></a>
 		<div class="page-header">
-			<h1><a href="#sync" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Secure File Sync Software</h1>
+			<h1><a href="#sync" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> ПО для синхронизации данных</h1>
 		</div>
 		<div class="row">
 			<div class="col-sm-4">
@@ -1865,7 +1865,6 @@
 						<p><img src="img/tools/SparkleShare.png" alt="SparkleShare" align="right" style="margin-left:5px;">
 							Бесплатная утилита с открытым исходным кодом для организации совместной работы с файлами, разработанная таким образом, чтобы максимально упростить пользователям настройку и работу с программой.
 							Программа создаёт в домашнем каталоге пользователя каталог с именем SparkleShare, к которому можно подключить множество удалённых каталогов для синхронизации, которые могут быть расположены на разных серверах.
-							Кроме того, SparkleShare обладает системой уведомлений, похожей на DropBox.
 						</p>
 						<p>
 							<a href="http://sparkleshare.org/">
@@ -1882,8 +1881,9 @@
 						<h3 class="panel-title">Syncany</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/Syncany.png" alt="Syncany" align="right" style="margin-left:5px;">Syncany allows users to backup and share certain folders of their workstations using any kind of storage. Syncany is open-source and provides data encryption and
-							incredible flexibility in terms of storage type and provider. Files are encrypted before uploading.</p>
+						<p><img src="img/tools/Syncany.png" alt="Syncany" align="right" style="margin-left:5px;">
+							Бесплатная утилита с открытым исходным кодом для безопасной синхронизации файлов и гибким выбором типа хранилища (FTP/SFTP, WebDAV, Amazon S3 и др.).
+							Для обеспечения приватности все файлы по умолчанию шифруются перед загрузкой. </p>
 						<p>
 							<a href="https://www.syncany.org/">
 								<button type="button" class="btn btn-info">Веб-сайт: syncany.org</button>
@@ -1899,8 +1899,10 @@
 						<h3 class="panel-title">Syncthing</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/Syncthing.png" alt="Syncthing" align="right" style="margin-left:5px;">Syncthing replaces proprietary sync and cloud services with something open, trustworthy and decentralized. Your data is your data alone and you deserve to
-							choose where it is stored, if it is shared with some third party and how it's transmitted over the Internet.</p>
+						<p><img src="img/tools/Syncthing.png" alt="Syncthing" align="right" style="margin-left:5px;">
+						Децентрализованное открытое решение для безопасной и приватной синхронизации данных.
+						Утилита написана на Go и использует интуитивный интерфейс для удобного обмена файлов как между устройствами в локальной сети, так и в Интернете.
+					</p>
 						<p>
 							<a href="https://syncthing.net/">
 								<button type="button" class="btn btn-warning">Веб-сайт: syncthing.net</button>
@@ -1914,8 +1916,8 @@
 		<h3>См. также</h3>
 		<ul>
 			<li>
-				<a href="https://git-annex.branchable.com/">git-annex</a> - Allows managing files with git, without checking the file contents into git. While that may seem paradoxical, it is useful when dealing with files larger than git can currently easily handle,
-				whether due to limitations in memory, time, or disk space.
+				<a href="https://git-annex.branchable.com/">git-annex</a> - распределенная система синхронизации больших файлов, написанная на Haskell.
+				Использует git для индексации файлов, без их записи в git history. 
 			</li>
 		</ul>
 		<!-- Secure file sync end -->
