@@ -1389,72 +1389,72 @@
 		<h3>Начинаем!</h3>
 
 		<ol>
-			<li>privacy.firstparty.isolate = true</li>
+			<li><i>privacy.firstparty.isolate = true</i></li>
 			<ul>
-				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference isolates all browser identifier sources (e.g. cookies) to the first party domain, with the goal of preventing tracking across different domains. (Don't do this if you are using the Firefox Addon "Cookie AutoDelete".)</li>
+				<li>Результат работы проекта <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a>. Включенная настройка изолирует браузерные идентификаторы (например, куки) в текущем домене, препятствуя трекингу на других доменах. Не используй одновременно с расширением <a href="#addons">Cookie AutoDelete</a>!</li>
 			</ul>
 
-			<li>privacy.resistFingerprinting = true</li>
+			<li><i>privacy.resistFingerprinting = true</i></li>
 			<ul>
-				<li>A result of the <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a> effort, this preference makes Firefox more resistant to browser fingerprinting.</li>
+				<li>Результат работы проекта <a href="https://wiki.mozilla.org/Security/Tor_Uplift">Tor Uplift</a>. Включенная настройка усложняет твою идентификацию по браузерному отпечатку.</li>
 			</ul>
 
-			<li>privacy.trackingprotection.enabled = true</li>
+			<li><i>privacy.trackingprotection.enabled = true</i></li>
 			<ul>
-				<li>Встроенная защита от трекинга. It uses Disconnect.me filter list, which is redundant if you are already using uBlock Origin 3rd party filters, therefore you should set it to false if you are using the add-on functionalities.</li>
+				<li>Встроенная защита от трекинга. Использует фильтры Disconnect.me, поэтому бесполезна при одновременном использовании с <a href="#addons">uBlock Origin</a>.</li>
 			</ul>
 
-			<li>browser.cache.offline.enable = false</li>
+			<li><i>browser.cache.offline.enable = false</i></li>
 			<ul>
 				<li>Отключение локального кэша.</li>
 			</ul>
 
-			<li>browser.safebrowsing.malware.enabled = false</li>
+			<li><i>browser.safebrowsing.malware.enabled = false</i></li>
 			<ul>
 				<li>Отключение механизма проверки на вредоносы Google Safe Browsing. Снижает безопасность, но повышает приватность.</li>
 			</ul>
 
-			<li>browser.safebrowsing.phishing.enabled = false</li>
+			<li><i>browser.safebrowsing.phishing.enabled = false</i></li>
 			<ul>
 				<li>Отключение механизма проверки на фишинг Google Safe Browsing. Снижает безопасность, но повышает приватность.</li>
 			</ul>
 
-			<li>browser.send_pings = false</li>
+			<li><i>browser.send_pings = false</i></li>
 			<ul>
 				<li>Запрет на трекинг пользовательских кликов. </li>
 			</ul>
 
-			<li>browser.sessionstore.max_tabs_undo = 0</li>
+			<li><i>browser.sessionstore.max_tabs_undo = 0</i></li>
 			<ul>
 				<li>Запрет на временное хранение недавно закрытых вкладок, доступных в меню "Журнал -&gt; Недавно закрытые вкладки".</li>
 			</ul>
 
-			<li>browser.urlbar.speculativeConnect.enabled = false</li>
+			<li><i>browser.urlbar.speculativeConnect.enabled = false</i></li>
 			<ul>
-				<li>Disable preloading of autocomplete URLs. Firefox preloads URLs that autocomplete when a user types into the address bar, which is a concern if URLs are suggested that the user does not want to connect to. <a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">Source</a></li>
+				<li>Отключение предзагрузки автозаполнения URL. Позволяет избежать утечки через сторонние сервисы при наборе текста в адресной строке (<a href="https://www.ghacks.net/2017/07/24/disable-preloading-firefox-autocomplete-urls/">источник</a>)</li>
 			</ul>
 
-			<li>dom.battery.enabled = false</li>
+			<li><i>dom.battery.enabled = false</i></li>
 			<ul>
-				<li>Отключение возможности получения данных о заряде батареи на устройстве. <a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">Источник</a></li>
+				<li>Отключение возможности получения данных о заряде батареи на устройстве (<a href="https://www.reddit.com/r/privacytoolsIO/comments/3fzbgy/you_may_be_tracked_by_your_battery_status_of_your/">источник</a>)</li>
 			</ul>
 
-			<li>dom.event.clipboardevents.enabled = false</li>
+			<li><i>dom.event.clipboardevents.enabled = false</i></li>
 			<ul>
 				<li>Отключение уведомлений страниц о пользовательских действиях (копирования, вырезания и вставки), а также выделенных элементов.</li>
 			</ul>
 
-			<li>geo.enabled = false</li>
+			<li><i>geo.enabled = false</i></li>
 			<ul>
 				<li>Отключение служб геолокации.</li>
 			</ul>
 
-			<li>media.navigator.enabled = false</li>
+			<li><i>media.navigator.enabled = false</i></li>
 			<ul>
 				<li>Запрет на трекинг статуса микрофона/камеры на устройстве.</li>
 			</ul>
 
-			<li>network.cookie.cookieBehavior = 1</li>
+			<li><i>network.cookie.cookieBehavior = 1</i></li>
 			<ul>
 				<li>Управление куками</li>
 				<li>0 = По умолчанию сохранять все куки </li>
@@ -1462,7 +1462,7 @@
 				<li>2 = По умолчанию блокировать все куки</li>
 			</ul>
 
-			<li>network.cookie.lifetimePolicy = 2</li>
+			<li><i>network.cookie.lifetimePolicy = 2</i></li>
 			<ul>
 				<li>Срок хранения кук</li>
 				<li>0 = Срок хранения задан сервером</li>
@@ -1471,33 +1471,33 @@
 				<li>3 = Срок хранения ограничен значением дней из настройки network.cookie.lifetime.days</li>
 			</ul>
 
-      <li>network.http.referer.trimmingPolicy = 2</li>
+      <li><i>network.http.referer.trimmingPolicy = 2</i></li>
       <ul>
         <li>Настройка отправляемых данных в заголовке <code>Referer</code></li>
         <li>0 = URL целиком</li>
-        <li>1 = URL без строки запроса (параметров) </li>
+        <li>1 = URL без параметров</li>
         <li>2 = Только протокол, хост и порт</li>
       </ul>
 
-      <li>network.http.referer.XOriginPolicy = 2</li>
+      <li><i>network.http.referer.XOriginPolicy = 2</i></li>
       <ul>
-        <li>Only send <code>Referer</code> header when the full hostnames match. (Note: if you notice significant breakage, you might try <code>1</code> combined with an <code>XOriginTrimmingPolicy</code> tweak below.) <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
-        <li>0 = Send <code>Referer</code> in all cases</li>
-        <li>1 = Send <code>Referer</code> to same eTLD sites</li>
-        <li>2 = Send <code>Referer</code> only when the full hostnames match</li>
+        <li>Настройка для опреления условий, при которых заголовок <code>Referer</code> будет отправляться на <a href="https://ru.wikipedia.org/wiki/Правило_ограничения_домена">другие домены</a>. В случае проблем с этой настройкой, можно выбрать менее жесткое значение <code>1</code> вместе с настройкой <code>XOriginTrimmingPolicy</code>, указанной ниже (<a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">источник</a>)</li>
+        <li>0 = Отправлять всегда</li>
+        <li>1 = Отправлять на те же самые eTLD-домены</li>
+        <li>2 = Отправлять только при полном совпадении доменов</li>
       </ul>
 
-      <li>network.http.referer.XOriginTrimmingPolicy = 2</li>
+      <li><i>network.http.referer.XOriginTrimmingPolicy = 2</i></li>
       <ul>
-        <li>When sending <code>Referer</code> across origins, only send scheme, host, and port in the <code>Referer</code> header of cross-origin requests. <a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">Source</a></li>
-        <li>0 = Send full url in <code>Referer</code></li>
-        <li>1 = Send url without query string in <code>Referer</code></li>
-        <li>2 = Only send scheme, host, and port in <code>Referer</code></li>
+        <li>Настройка отправляемых данных на другие домены в заголовке <code>Referer</code> (<a href="https://feeding.cloud.geek.nz/posts/tweaking-referrer-for-privacy-in-firefox/">источник</a>)</li>
+        <li>0 = URL целиком</li>
+        <li>1 = URL без параметров</li>
+        <li>2 = Только протокол, хост и порт</li>
       </ul>
 
-			<li>webgl.disabled = true</li>
+			<li><i>webgl.disabled = true</i></li>
 			<ul>
-				<li>WebGL является потенциальным риском безопасности. <a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">Источник</a></li>
+				<li>Отключение WebGL как потенциального риска безопасности (<a href="http://security.stackexchange.com/questions/13799/is-webgl-a-security-concern">источник</a>)</li>
 			</ul>
 		</ol>
 
