@@ -2721,9 +2721,9 @@
 
 		<h3>См. также</h3>
 		<ul>
-			<li><a href="http://www.openbsd.org/">OpenBSD</a> - свободная многоплатформенная операционная система, основанная на 4.4BSD. Основным отличием OpenBSD является изначальная ориентированность проекта на создание наиболее безопасной, свободной и лицензионно чистой из существующих операционных систем.</li>
 			<li><a href="https://www.debian.org/">Debian</a> - операционная система, состоящая из свободного ПО с открытым исходным кодом. В настоящее время — один из самых популярных и важных дистрибутивов GNU/Linux, имеющий наибольшее хранилище пакетов и являющегося основой целого ряда ориентированных на приватность систем.</li>
 			<li><a href="https://www.archlinux.org/">Arch Linux</a> - независимый дистрибутив GNU/Linux общего назначения, оптимизированный для архитектуры x86-64. По умолчанию предоставляется минималистичная базовая система, в которую пользователь может добавить то, что ему требуется.</li>
+			<li><a href="https://www.openbsd.org/">OpenBSD</a> - свободная многоплатформенная операционная система, основанная на 4.4BSD. Основным отличием OpenBSD является изначальная ориентированность проекта на создание наиболее безопасной, свободной и лицензионно чистой из существующих операционных систем.</li>
 		</ul>
 
 		<h3>Дополнительная информация</h3>
@@ -2921,8 +2921,10 @@
 						<h3 class="panel-title">OpenWrt</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/OpenWrt.png" alt="OpenWrt" align="right" style="margin-left:5px;">OpenWrt is an operating system (in particular, an embedded operating system) based on the Linux kernel, primarily used on embedded devices to route network traffic.
-							The main components are the Linux kernel, util-linux, uClibc and BusyBox. All components have been optimized for size, to be small enough for fitting into the limited storage and memory available in home routers.</p>
+						<p><img src="img/tools/OpenWrt.png" alt="OpenWrt" align="right" style="margin-left:5px;">
+							Встроенная операционная система, основанная на ядре Linux, и предназначенная, в первую очередь, для домашних маршрутизаторов.
+							Основные компоненты включают в себя ядро Linux, util-linux, uClibc или musl и BusyBox.
+							Размер всех компонентов оптимизирован в связи с тем, что в большинстве домашних маршрутизаторов сильно ограничен объём памяти.</p>
 						<p>
 							<a href="https://openwrt.org/">
 								<button type="button" class="btn btn-success">Веб-сайт: openwrt.org</button>
@@ -2937,8 +2939,11 @@
 						<h3 class="panel-title">pfSense</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/pfSense.png" alt="pfSense" align="right" style="margin-left:5px;">pfSense is an open source firewall/router computer software distribution based on FreeBSD. It is installed on a computer to make a dedicated firewall/router for
-							a network and is noted for its reliability and offering features often only found in expensive commercial firewalls. pfSense is commonly deployed as a perimeter firewall, router, wireless access point, DHCP server, DNS server, and as a VPN endpoint.</p>
+						<p><img src="img/tools/pfSense.png" alt="pfSense" align="right" style="margin-left:5px;">
+							Дистрибутив для создания межсетевого экрана/маршрутизатора, основанный на FreeBSD.
+							Настройки можно проводить через web-интерфейс, что позволяет использовать его без знаний базовой системы FreeBSD.
+							pfSense обычно применяется в качестве периметрового брандмауэра, маршрутизатора, сервера DHCP/DNS, и в качестве VPN hub/spoke.
+						</p>
 						<p>
 							<a href="https://www.pfsense.org/">
 								<button type="button" class="btn btn-info">Веб-сайт: pfsense.org</button>
@@ -2950,14 +2955,16 @@
 			<div class="col-sm-4">
 				<div class="panel panel-warning">
 					<div class="panel-heading">
-						<h3 class="panel-title">LibreWRT</h3>
+						<h3 class="panel-title">libreCMC</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/LibreWRT.png" alt="LibreWRT" align="right" style="margin-left:5px;">LibreWRT is a GNU/Linux-libre distribution for computers with minimal resources, such as the Ben Nanonote, ath9k based wifi routers, and other hardware that
-							respects your freedom with emphasis on free software. It is used by the Free Software Foundation on their access point and router which provides network connectivity to portable computers in their office.</p>
+						<p><img src="img/tools/LibreCMC.png" alt="LibreCMC" align="right" style="margin-left:5px;">
+							Дистрибутив GNU/Linux-libre для устройств с ограниченными ресурсами, такими как Ben Nanonote, основанные на ath9k Wi-Fi роутеры и другое аппаратное обеспечение с акцентом на бесплатное ПО.
+							Проект удовлетворяем требованиям GNU Free System Distribution Guidelines (GNU FSDG) и Free Software Foundation (FSF).
+						</p>
 						<p>
-							<a href="http://librewrt.org/">
-								<button type="button" class="btn btn-warning">Веб-сайт: librewrt.org</button>
+							<a href="https://librecmc.org">
+								<button type="button" class="btn btn-warning">Веб-сайт: librecmc.org</button>
 							</a>
 						</p>
 					</div>
@@ -2967,8 +2974,8 @@
 
 		<h3>См. также</h3>
 		<ul>
-			<li><a href="http://www.openbsd.org/">OpenBSD</a> - A project that produces a free, multi-platform 4.4BSD-based UNIX-like operating system. Emphasizes portability, standardization, correctness, proactive security and integrated cryptography.</li>
-			<li><a href="http://www.dd-wrt.com/">DD-WRT</a> - A is Linux-based firmware for wireless routers and wireless access points. It is compatible with several models of routers and access points.</li>
+			<li><a href="http://www.dd-wrt.com/">DD-WRT</a> - свободная альтернативная прошивка для ряда беспроводных маршрутизаторов, в основном потребительского класса, основанных на чипах BroadCom/Atheros/Xscale/Ralink. Представляет собой встраиваемую операционную систему на основе ядра Linux. Распространяется под лицензией GNU GPL v2.</li>
+			<li><a href="http://www.openbsd.org/">OpenBSD</a> - свободная многоплатформенная операционная система, основанная на 4.4BSD. Основным отличием OpenBSD является изначальная ориентированность проекта на создание наиболее безопасной, свободной и лицензионно чистой из существующих операционных систем.</li>
 		</ul>
 
 
@@ -3268,7 +3275,7 @@ Windows 10 Sends Your Data 5500 Times Every Day Even After Tweaking Privacy Sett
 
 			<p>Проект разработан сообществом. Мы стремимся предоставить лучшую доступную информацию для повышения пользовательской приватности. Спасибо за участие. Ты нужен проекту.</p>
 
-			<p><em>Последнее обновление: 22/04/2018</em></p>
+			<p><em>Последнее обновление: 23/04/2018</em></p>
 
 			<br>
 
