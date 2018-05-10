@@ -2847,7 +2847,10 @@
 						<h3 class="panel-title">CopperheadOS</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/CopperheadOS.png" alt="CopperheadOS" align="right" style="margin-left:5px;">CopperheadOS is a hardened mobile open-source operating system by Copperhead Security and based on Android. It aims to provide stronger security and privacy. It also contains a hardened kernel and sandbox features for app isolation. Available for select Pixel and Nexus devices.</p>
+						<p><img src="img/tools/CopperheadOS.png" alt="CopperheadOS" align="right" style="margin-left:5px;">
+							Защищенная ОС с открытым исходным кодом на основе Android, по умолчанию предоставляющая настройки с повышенным уровнем безопасности.
+							CopperheadOS отключает все обычные сервисы Google и в качестве альтернативы использует открытые решения F-Droid. В настоящий момент работает на устройствах Pixel и Nexus.
+						</p>
 						<p>
 							<a href="https://copperhead.co/android/">
 								<button type="button" class="btn btn-info">Веб-сайт: copperhead.co</button>
@@ -2863,7 +2866,13 @@
 						<h3 class="panel-title">Sailfish OS</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/Sailfish-OS.png" alt="Sailfish OS" align="right" style="margin-left:5px;">Sailfish OS is a mobile operating system combining the Linux kernel for a particular hardware platform use, the open-source Mer core middleware, a proprietary UI contributed by Jolla, and other third-party components.</p>
+						<p><img src="img/tools/Sailfish-OS.png" alt="Sailfish OS" align="right" style="margin-left:5px;">
+							Преимущественно открытая операционная система, разработанная финской компанией Jolla. Система основана на мобильной Linux-платформе Mer и Qt/QML.
+							Благодаря Alien Dalvik совместима со многими приложениями под Android.
+						</p>
+						<p>
+							См.также: <a href="https://geektimes.com/post/297937/">использование Sailfish OS в России</a>
+						</p>
 						<p>
 							<a href="https://sailfishos.org/">
 								<button type="button" class="btn btn-warning">Веб-сайт: sailfishos.org</button>
@@ -2875,44 +2884,69 @@
 		</div>
 		<h3>См. также</h3>
 		<ul>
-			<li><a href="http://www.replicant.us/">Replicant</a> - An open-source operating system based on Android, aiming to replace all proprietary components with free software.</li>
-			<li><a href="http://omnirom.org/">OmniROM</a> - A free software operating system for smartphones and tablet computers, based on the Android mobile platform.</li>
-			<li><a href="https://microg.org/">MicroG</a> - A project that aims to reimplement the proprietary Google Play Services in the Android operating sytem with a FLOSS replacement.
+			<li><a href="https://puri.sm/shop/librem-5/">Librem 5</a> - проект Purism по созданию альтернативного смартфона с открытой ОС на основе Debian, ориентированного на приватность и безопасность.</li>
+			<li><a href="https://www.replicant.us">Replicant</a> - открытая ОС на основе Android, ставящая целью заменить все проприетарные компоненты открытым ПО.</li>
+			<li><a href="https://www.omnirom.org">OmniROM</a> - еще одна альтернативная ОС на основе Android.</li>
 		</ul>
-		<!-- Live OS end -->
+		<!-- Mobile OS end -->
 
 
-		<!-- Android add-ons -->
+		<!-- Android add-ons start -->
 		<a class="anchor" name="aaddons"></a>
 
 		<div class="page-header">
 			<h1><a href="#aaddons" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Расширения приватности для Android</h1>
 		</div>
 
-		<div class="alert alert-success" role="alert">
-			<strong>Повысь приватность с помощью этих аддонов для Android.</strong>
-		</div>
-
-		<h3>Контролируй свой трафик с "NetGuard"</h3>
+		<h3>Контроль трафика: NetGuard</h3>
 		<img src="img/addons/netguard.gif" class="img-responsive pull-left" alt="NetGuard" style="margin-right:30px;">
-		<p><strong>NetGuard</strong> provides simple and advanced ways to block certain apps' access to the internet without the help of root privileges. Applications and addresses can individually be allowed or denied access to your Wi-Fi and/or mobile connection, allowing you to control which apps are able to call home or not.
-		<a href="https://www.netguard.me/">https://www.netguard.me/</a></p>
-		<br>
-		<div class="alert alert-warning" role="alert">
-			<strong>The following add-ons require root access, which makes your device more vulnerable. Proceed with caution.</strong>
-		</div>
-
-		<h3>Управляй разрешениями приложений с XPrivacyLua</h3>
-		<img src="img/addons/xprivacylua.gif" class="img-responsive pull-left" alt="XPrivacyLua" style="margin-right:30px;">
-		<p>Revoking Android permissions from apps often let apps crash or malfunction. <strong>XPrivacyLua</strong> solves this by feeding apps fake data instead of real data.
-
-		<a href="https://lua.xprivacy.eu/">https://lua.xprivacy.eu/</a></p>
-		<p> Requirements: <a href="https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445">Magisk (xda-developers)</a>
-		<a href="https://forum.xda-developers.com/xposed">Xposed Framework (xda-developers)</a>
+		<p>
+			<strong>NetGuard</strong> позволяет увидеть, какие приложения и куда отправляют данные, а также заблокировать нежелательную отправку данных. Приложение не требует рутового доступа и позволяет блокировать соединения как для пользовательских, так и для системных приложений.
+			<br>
+			<a href="https://www.netguard.me/">
+				<button type="button" class="btn btn-success">Веб-сайт: netguard.me</button>
+			</a>
+			<a href="https://github.com/M66B/NetGuard/">
+				<button type="button" class="btn btn-info">Исходный код</button>
+			</a>
 		</p>
 
+		<h3>Tor для Android: Orbot</h3>
+		<img src="img/addons/orbot.png" class="img-responsive pull-left" alt="Orbot" style="margin-right:30px;">
+		<p>
+			<strong>Orbot</strong> позволяет использовать анонимную сеть Tor на Android и перенаправлять через нее трафик от других приложений, в т.ч. браузера, почты, карт и т.д. Отличное расширение для повышения приватности в сети.
+			<br>
+			<a href="https://guardianproject.info/apps/orbot/">
+				<button type="button" class="btn btn-success">Веб-сайт: guardianproject.info</button>
+			</a>
+			<a href="https://gitweb.torproject.org/orbot.git">
+				<button type="button" class="btn btn-info">Исходный код</button>
+			</a>
+		</p>
 
+		<br>
+		<div class="alert alert-warning" role="alert">
+			<strong>Для работы следующих расширений требуется рутовый доступ, что потенциально делает твое устройство более уязвимым. Будь осторожен!</strong>
+		</div>
+		<h3>Управление разрешениями: XPrivacyLua</h3>
+		<img src="img/addons/xprivacylua.gif" class="img-responsive pull-left" alt="XPrivacyLua" style="margin-right:30px;">
+		<p>
+			Простой в использовании "менеджер приватности" <strong>XPrivacyLua</strong> решает проблему избыточных разрешений приложений интересным способом: вместо прямого запрета на доступ (что часто приводит к остановке приложений), он отправляет фейковые данные взамен настоящих, обеспечивая пользовательскую приватность.
+			<br>
+			<a href="https://lua.xprivacy.eu/">
+				<button type="button" class="btn btn-success">Веб-сайт: lua.xprivacy.eu</button>
+			</a>
+			<a href="https://github.com/M66B/XPrivacyLua">
+				<button type="button" class="btn btn-info">Исходный код</button>
+			</a>
+		</p>
+		<br>
+		<!-- Android add-ons end -->
+
+
+		<!-- Firmware start -->
 		<a class="anchor" name="firmware"></a>
+		
 		<div class="page-header">
 			<h1><a href="#firmware" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> Прошивки роутера</h1>
 		</div>
