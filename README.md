@@ -50,7 +50,7 @@ _Практические рекомендации по повышению пр�
 # Переводы сообщества
 - [Main page (English) / Английский](https://privacytools.io) - [GitHub](https://github.com/privacytoolsIO/privacytools.io)
 - [Español / Испанский](https://victorhck.gitlab.ru/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
-- [Italiano / Итальянский](https://strappazzon.github.io/privacytools-it/) - [GitHub](https://github.com/Strappazzon/privacytools-it)
+- [Italiano / Итальянский](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
 - [Deutsch / Немецкий](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
 - [繁体中文 / Китайский](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
 
