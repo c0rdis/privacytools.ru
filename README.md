@@ -2,6 +2,8 @@
 
 _Практические рекомендации по повышению приватности в Интернете_
 
+Сайт временно располагается по [данному адресу](https://digitalkiller.github.io/privacytools.ru/).
+
 # Помочь нам
 
 Нам важно, чтобы информация здесь была полезной и актуальной. Если ты вдруг заметишь ошибку или посчитаешь, что один из вышеуказанных провайдеров/приложений/аддонов недостаточно хорош, а какой-нибудь другой получше отсутствует...
@@ -48,11 +50,14 @@ _Практические рекомендации по повышению пр�
 - Внеси предложения в код, размещенный в этом репозитории.
 
 # Переводы сообщества
-- [Main page (English) / Английский](https://privacytools.io) - [GitHub](https://github.com/privacytoolsIO/privacytools.io)
-- [Español / Испанский](https://victorhck.gitlab.ru/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
+- [English / Английский](https://privacytools.io) - [GitHub](https://github.com/privacytoolsIO/privacytools.io)
+- [Español / Испанский](https://victorhck.gitlab.io/privacytools-es/) - [GitLab](https://gitlab.com/victorhck/privacytools-es)
 - [Italiano / Итальянский](https://privacytools-it.github.io/) - [GitHub](https://github.com/privacytools-it/privacytools-it.github.io)
 - [Deutsch / Немецкий](https://privacytools.it-sec.rocks/) - [GitHub](https://github.com/Anon215/privacytools.it-sec.rocks)
-- [繁体中文 / Китайский](https://github.com/twngo/privacytools-zh) - [GitHub](https://github.com/twngo/privacytools-zh)
+- [繁体中文 / Китайский](https://privacytools.twngo.xyz/) - [GitHub](https://github.com/twngo/privacytools-zh)
+- [Polski / Польский](https://pl.privacytools.io/) - [Gitea](https://git.privacytools.io/pl-privacytoolsIO/pl.privacytools.io)
+- [Français / Французкий](https://privacytools.dreads-unlock.fr/) - [GitLab](https://gitlab.com/Booteille/privacytools)
+- [Português / Португальский](https://www.privacidade.digital/) - [GitHub](https://github.com/PrivacidadeDigital/privacidade.digital)
 
 # Лицензия
-[Do What The Fuck You Want To Public License (WTFPL)](https://github.com/c0rdis/privacytools.ru/blob/master/LICENSE.txt)
+[Creative Commons Zero v1.0 Universal](https://privacytools.ru/LICENSE.txt)
