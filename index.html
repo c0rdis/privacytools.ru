@@ -484,6 +484,28 @@
 		<div class="page-header">
 			<h1><a href="#vpn" class="titleanchor"><span class="glyphicon glyphicon-link"></span></a> VPN-провайдеры</h1>
 		</div>
+		<div class="panel panel-danger">
+			<div class="panel-heading">
+				<h3 class="panel-title">Внимание</h3>
+			</div>
+			<div class="panel-body">
+				<p>Использование VPN <b>не</b> сохранит анонимность ваших привычек просмотра веб-страниц и не добавит дополнительной безопасности небезопасному (HTTP) трафику.</p>
+				<p>Если вы ищете <b>анонимность</b>, вам следует использовать Tor Browser, <b>а не</b> VPN.</p>
+				<p>Если вы ищете дополнительную <b>защиту</b>, вы всегда должны быть уверены, что подключаетесь к веб-сайтам, использующим HTTPS. VPN не является заменой хорошим практикам безопасности.</p>
+				<p>Если вы ищете дополнительную <b>конфиденциальность</b> у вашего провайдера интернет-услуг, в публичной сети Wi-Fi или при торрентинге файлов, VPN может быть решением для вас, если вы понимаете связанные с этим риски.</p>
+				<p>
+					<a href="https://www.torproject.org/ru/">
+						<button type="button" class="btn btn-danger">Скачать Tor</button>
+					</a>
+					<a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">
+						<button type="button" class="btn btn-info">Мифы Tor и FAQ</button>
+					</a>
+					<!--<a href="#">
+						<button type="button" class="btn btn-default">Подробнее</button>
+					</a>-->
+				</p>
+			</div>
+		</div>
 		<div class="alert alert-success" role="alert">
 			<strong>Все провайдеры в списке находятся за пределами России и США, используют шифрование, принимают оплату в биткоинах, поддерживают OpenVPN и придерживаются политики отсутствия логов.
 			Кликни на название столбца для сортировки.</strong>
@@ -499,88 +521,12 @@
 								<th data-sortable="true">Таблица провайдеров VPN</th>
 								<th data-sortable="true">Цена в год</th>
 								<th data-sortable="true">Пробный период</th>
-								<th data-sortable="true" title="Number of Servers">Количество серверов</th>
+								<th data-sortable="true" title="Количество серверов">Серверы</th>
 								<th data-sortable="true">Страна</th>
 								<th data-sortable="false">Веб-сайт</th>
 							</tr>
 						</thead>
 						<tbody>
-
-							<tr>
-								<td data-value="AirVPN">
-									<a href="https://airvpn.org/"><img src="img/provider/AirVPN.gif" width="200" height="70"></a></td>
-								<td data-value="54">54 €</td>
-								<td><span class="label label-success">Да</span></td>
-								<td>162</td>
-								<td><span class="flag-icon flag-icon-it"></span> Италия</td>
-								<td><a href="https://airvpn.org/">AirVPN.org</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="AzireVPN">
-									<a href="https://www.azirevpn.com/"><img src="img/provider/AzireVPN.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="45">45 €</td>
-								<td><span class="label label-success">Да</span></td>
-								<td>22</td>
-								<td><span class="flag-icon flag-icon-se"></span> Швеция</td>
-								<td><a href="https://www.azirevpn.com/">AzireVPN.com</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="blackVPN">
-									<a href="https://www.blackvpn.com/"><img src="img/provider/blackVPN.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="49">49 €</td>
-								<td><span class="label label-success">Да</span></td>
-								<td>31</td>
-								<td><span class="flag-icon flag-icon-hk"></span> Гонконг</td>
-								<td><a href="https://www.blackvpn.com/">blackVPN.com</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="Cryptostorm">
-									<a href="https://cryptostorm.is/"><img src="img/provider/Cryptostorm.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="52">$ 52</td>
-								<td><span class="label label-success">Да</span></td>
-								<td>28</td>
-								<td><span class="flag-icon flag-icon-is"></span> Исландия</td>
-								<td><a href="https://cryptostorm.is/">Cryptostorm.is</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="ExpressVPN">
-									<a href="https://www.expressvpn.com/"><img src="img/provider/ExpressVPN.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="99">$ 99.95</td> <!-- USD on March 21, 2017 -->
-								<td><span class="label label-success">Да</span></td>
-								<td>148</td>
-								<td><span class="flag-icon flag-icon-vg"></span> Виргинские острова</td>
-								<td><a href="https://www.expressvpn.com/">ExpressVPN.com</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="FrootVPN">
-									<a href="https://www.frootvpn.com/"><img src="img/provider/FrootVPN.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="35">$ 35.88</td>
-								<td><span class="label label-warning">Нет</span></td>
-								<td>27</td>
-								<td><span class="flag-icon flag-icon-se"></span> Швеция</td>
-								<td><a href="https://www.frootvpn.com/">FrootVPN.com</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="hide.me">
-									<a href="https://hide.me/"><img src="img/provider/hide.me.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="0">Бесплатно</td>
-								<td><span class="label label-success">Да</span></td>
-								<td>160+</td>
-								<td><span class="flag-icon flag-icon-my"></span> Малайзия</td>
-								<td><a href="https://hide.me/">hide.me</a></td>
-							</tr>
 
 							<tr>
 								<td data-value="IVPN">
@@ -616,91 +562,14 @@
 							</tr>
 
 							<tr>
-								<td data-value="OVPN.com">
-									<a href="https://www.ovpn.com/"><img src="img/provider/OVPN.gif" width="200" height="70"></a>
+								<td data-value="ProtonVPN">
+									<a href="https://protonvpn.com/"><img src="img/provider/ProtonVPN.png" width="200" height="70"></a     >
 								</td>
-								<td data-value="84">84 €</td>
+								<td data-value="0">Бесплатно</td>
 								<td><span class="label label-success">Да</span></td>
-								<td>67</td>
-								<td><span class="flag-icon flag-icon-se"></span> Швеция</td>
-								<td><a href="https://www.ovpn.com/">OVPN.com</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="Perfect Privacy">
-									<a href="https://www.perfect-privacy.com/"><img src="img/provider/Perfect-Privacy.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="120">119.99 €</td>
-								<td><span class="label label-warning">Нет</span></td>
-								<td>54</td>
+								<td>396</td>
 								<td><span class="flag-icon flag-icon-ch"></span> Швейцария</td>
-								<td><a href="https://www.perfect-privacy.com/">Perfect-Privacy.com</a></td>
-							</tr>
-
-							<tr>
-                <td data-value="ProtonVPN">
-                  <a href="https://protonvpn.com/"><img src="img/provider/ProtonVPN.png" width="200" height="70"></a     >
-                </td>
-                <td data-value="0">Бесплатно</td>
-                <td><span class="label label-success">Да</span></td>
-                <td>325</td>
-                <td><span class="flag-icon flag-icon-ch"></span> Швейцария</td>
-                <td><a href="https://protonvpn.com/">ProtonVPN.com</a></td>
-              </tr>
-
-							<tr>
-								<td data-value="Proxy.sh">
-									<a href="https://proxy.sh/"><img src="img/provider/Proxy.sh.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="40">$ 40</td>
-								<td><span class="label label-warning">Нет</span></td>
-								<td>300+</td>
-								<td><span class="flag-icon flag-icon-sc"></span> Сейшельские Острова</td>
-								<td><a href="https://proxy.sh/">Proxy.sh</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="Trust.Zone">
-									<a href="https://trust.zone/"><img src="img/provider/Trust.Zone.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="39">$ 39.95</td>
-								<td><span class="label label-success">Да</span></td>
-								<td>164</td>
-								<td><span class="flag-icon flag-icon-sc"></span> Сейшельские Острова</td>
-								<td><a href="https://trust.zone/">Trust.Zone</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="VPN.ht">
-									<a href="https://vpn.ht/"><img src="img/provider/VPN.ht.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="40">$ 39.99</td>
-								<td><span class="label label-warning">Нет</span></td>
-								<td>128</td>
-								<td><span class="flag-icon flag-icon-hk"></span> Гонконг</td>
-								<td><a href="https://vpn.ht/">VPN.ht</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="VPNArea">
-									<a href="https://vpnarea.com/"><img alt="VPNArea" src="img/provider/vpnarea.png" width="200" height="70"></a>
-								</td>
-								<td data-value="59">$ 59</td>
-								<td><span class="label label-success">Да</span></td>
-								<td>204</td>
-								<td><span class="flag-icon flag-icon-bg"></span> Болгария</td>
-								<td><a href="https://vpnarea.com/">VPNArea.com</a></td>
-							</tr>
-
-							<tr>
-								<td data-value="VPNTunnel">
-									<a href="https://vpntunnel.com/"><img src="img/provider/VPNTunnel.gif" width="200" height="70"></a>
-								</td>
-								<td data-value="36">35.88 €</td>
-								<td><span class="label label-warning">Нет</span></td>
-								<td>800+</td>
-								<td><span class="flag-icon flag-icon-sc"></span> Сейшельские Острова</td>
-								<td><a href="https://vpntunnel.com/">VPNTunnel.com</a></td>
+								<td><a href="https://protonvpn.com/">ProtonVPN.com</a></td>
 							</tr>
 
 						</tbody>
@@ -807,7 +676,7 @@
 
 				<tr>
 					<td data-value="disroot.org">
-						<img src="img/provider/disroot.org.gif" width="200" height="70">
+						<img src="img/provider/disroot.org.png" width="200" height="70">
 					</td>
 					<td>
 						<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://disroot.org" href="https://disroot.org"><img src="img/layout/www.png" width="35"></img></a>
@@ -815,7 +684,7 @@
 					<td data-value="2015">2015</td>
 					<td><span class="flag-icon flag-icon-nl"></span> Нидерланды</td>
 					<td data-value="2000">2 GB</td>
-					<td data-value="1"><span class="label label-warning">Бесплатно</span></td>
+					<td data-value="0"><span class="label label-warning">Бесплатно</span></td>
 					<td data-value="1"><span class="label label-success">Да</span></td>
 					<td data-value="1"><span class="label label-success">Встроенное</span></td>
 					<td data-value="1"><span class="label label-success">Да</span></td>
@@ -882,7 +751,7 @@
 							<td data-value="2009">2009</td>
 							<td><span class="flag-icon flag-icon-de"></span> Германия</td>
 							<td data-value="2000">2 GB</td>
-							<td data-value="13">12 €</td>
+							<td data-value="12">12 €</td>
 							<td data-value="0"><span class="label label-primary">Нет</span></td>
 							<td data-value="1"><span class="label label-success">Встроенное</span></td>
 							<td data-value="0"><span class="label label-primary">Нет</span></td>
@@ -922,8 +791,24 @@
 						</tr>
 
 						<tr>
+							<td data-value="Soverin">
+								<img src="img/provider/Soverin.png" width="200" height="70">
+							</td>
+							<td>
+								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://soverin.net" href="https://soverin.net"><img src="img/layout/www.png" width="35"></img></a>
+							</td>
+							<td data-value="2015">2015</td>
+							<td><span class="flag-icon flag-icon-nl"></span> Нидерланды</td>
+							<td data-value="25000">25 GB</td>
+							<td data-value="29">$ 29</td>
+							<td data-value="0"><span class="label label-primary">Нет</span></td>
+							<td data-value="0"><span class="label label-primary">Нет</span></td>
+							<td data-value="1"><span class="label label-success">Да</span></td>
+						</tr>
+
+						<tr>
 							<td data-value="StartMail">
-								<img src="img/provider/StartMail.gif" width="200" height="70">
+								<img src="img/provider/StartMail.png" width="200" height="70">
 							</td>
 							<td>
 								<a data-toggle="tooltip" data-placement="bottom" data-original-title="https://www.startmail.com" href="https://www.startmail.com"><img src="img/layout/www.png" width="35"></img></a>
@@ -932,9 +817,9 @@
 							<td><span class="flag-icon flag-icon-nl"></span> Нидерланды</td>
 							<td data-value="10000">10 GB</td>
 							<td data-value="60">$ 59.95</td>
-							<td data-value="0"><span class="label label-success">Да</span></td>
+							<td data-value="1"><span class="label label-success">Да</span></td>
 							<td data-value="1"><span class="label label-success">Встроенное</span></td>
-							<td data-value="0"><span class="label label-success">Да</span></td>
+							<td data-value="1"><span class="label label-success">Да</span></td>
 						</tr>
 
 						<tr>
@@ -971,27 +856,15 @@
 		<h3>Сам себе почтовый провайдер</h3>
 		<a href="https://mailinabox.email/"><img src="img/provider/Mail-in-a-Box.gif" class="img-responsive pull-left" alt="Mail-in-a-Box" style="margin-right:10px;"></a>
 		<p>
-			<b><a href="https://mailinabox.email/">Mail-in-a-Box</a></b> - бесплатное решение для почтовых серверов с открытым исходным кодом, разработанное Джошуа Тауберером. Используя Mail-in-a-Box, каждый может легко превратить облачную систему в почтовый сервер за несколько часов. Сервер может содержать почту для нескольких пользователей и нескольких доменных имен. Mail-in-a-Box основан на 64-битной версии Ubuntu 14.04 LTS и включает в себя автоматическую настройку DNS, фильтрацию спама, серые списки, резервное копирование на Amazon S3, статический хостинг веб-сайтов и простую установку сертификата SSL.
-<a href="http://blog.sedicomm.com/2018/04/21/mail-in-a-box-ustanovka-pochtovogo-servera-s-otkrytym-ishodnym-kodom-v-ubuntu-debian/">Инструкция по установке</a> (blog.sedicomm.com)
+			Сделайте шаг вперед и получите контроль над своей электронной почтой с помощью этого простого в развертывании почтового сервера в ящике. Mail-in-a-Box позволяет вам стать вашим собственным поставщиком почтовых услуг за несколько простых шагов. Это вроде как создание собственного Gmail, но им можно управлять сверху вниз. Технически Mail-in-a-Box превращает свежий "облачный" компьютер в рабочий почтовый сервер. Но вам не нужно быть экспертом по технологиям, чтобы все организовать. <b>Подробнее: <a href="https://mailinabox.email/">https://mailinabox.email/</a></b>
+			<a href="http://blog.sedicomm.com/2018/04/21/mail-in-a-box-ustanovka-pochtovogo-servera-s-otkrytym-ishodnym-kodom-v-ubuntu-debian/">Инструкция по установке</a> (blog.sedicomm.com)
 		</p>
-
-		<h3>Почтовые расширения приватности</h3>
-		<ul>
-			<li><a href="http://www.gpg4usb.org/">gpg4usb</a> - A very easy to use and small portable editor to encrypt and decrypt any text-message or -file. For Windows and Linux. <a href="https://theprivacyguide.org/tutorials/gpg.html">GPG tutorial</a>.</li>
-			<li><a href="https://www.mailvelope.com/">Mailvelope</a> - A browser extension that enables the exchange of encrypted emails following the <a href="https://theprivacyguide.org/tutorials/pgp.html">OpenPGP encryption standard</a>.</li>
-			<li><a href="https://www.enigmail.net/">Enigmail</a> - A security extension to Thunderbird and Seamonkey. It enables you to write and receive email messages signed and/or encrypted with the <a href="https://theprivacyguide.org/tutorials/pgp.html">OpenPGP standard</a>.</li>
-			<li><a href="https://addons.mozilla.org/thunderbird/addon/torbirdy/">TorBirdy</a> - This extension configures Thunderbird to make connections over the Tor anonymity network.</li>
-			<li><a href="https://emailprivacytester.com/">Email Privacy Tester</a> - This tool will send an Email to your address and perform privacy related tests.</li>
-		</ul>
 
 		<h3>Дополнительная информация</h3>
 		<ul>
-			<li><a href="http://www.wired.com/2011/10/ecpa-turns-twenty-five/">Aging ‘Privacy’ Law Leaves Cloud E-Mail Open to Cops</a> - Data stored in the cloud for longer than 6 months is considered abandoned and may be accessed by intelligence agencies without
-				a warrant. Learning: Use an external email client like Thunderbird or Enigmail, download your emails and store them locally. Never leave them on the server.</li>
-			<li><a href="https://forum.openmailbox.org/viewtopic.php?id=390">OpenMailBox keeps one year logs of meta-data</a> - Forum discussion, reply of the server admin.</li>
+			<li><a href="http://www.wired.com/2011/10/ecpa-turns-twenty-five/">Aging ‘Privacy’ Law Leaves Cloud E-Mail Open to Cops</a> - Данные, хранящиеся в облаке в течение более 6 месяцев, считаются заброшенными и могут быть получены спецслужбами без ордера. Обучение: Используйте внешний почтовый клиент, например Thunderbird или Enigmail, загружайте свои сообщения и храните их локально. Никогда не оставляйте их на сервере.</li>
 			<li><a href="https://www.eff.org/deeplinks/2012/04/may-firstriseup-server-seizure-fbi-overreaches-yet-again">With May First/Riseup Server Seizure, FBI Overreaches Yet Again</a></li>
-			<li><a href="http://www.autistici.org/ai/crackdown/">Autistici/Inventati server compromised</a> - The cryptographic services offered by the Autistici/Inventati server have been compromised on 15th June 2004. It was discovered on 21st June 2005. One year
-				later. During an enquiry on a single mailbox, the Postal Police may have tapped for a whole year every user's private communication going through the server autistici.org/inventati.org.</li>
+			<li><a href="http://www.autistici.org/ai/crackdown/">Autistici/Inventati server compromised</a> - Криптографические услуги, предлагаемые сервером Autistici/Inventati, были взломаны 15 июня 2004 года. Он был обнаружен 21 июня 2005 года. Год спустя. Во время запроса на одном почтовом ящике почтовая полиция, возможно, целый год прослушивала частную переписку каждого пользователя через сервер autisticici.org/inventati.org.</li>
 		</ul>
 		<!-- End of email services -->
 
@@ -1009,7 +882,7 @@
         <div class="col-sm-4">
           <div class="panel panel-success">
             <div class="panel-heading">
-              <h3 class="panel-title">searx</h3>
+              <h3 class="panel-title">searx - Децентрализованный</h3>
             </div>
             <div class="panel-body">
               <p><img src="img/provider/searx.jpg" alt="searx" align="right" style="margin-left:5px;">Метапоисковик <a href="https://github.com/asciimoo/searx">с открытым исходным кодом</a>, агрегирующий результаты запроса в других поисковых системах и не собирающий информации о своих пользователях. Без сбора логов, рекламы и трекинга.</p>
@@ -1027,7 +900,7 @@
 			<div class="col-sm-4">
 				<div class="panel panel-info">
 					<div class="panel-heading">
-						<h3 class="panel-title">StartPage</h3>
+						<h3 class="panel-title">StartPage - Нидерланды</h3>
 					</div>
 					<div class="panel-body">
 						<p><img src="img/provider/StartPage.png" alt="StartPage" align="right" style="margin-left:5px;">Возвращает результаты запроса в Google, не содержащего трекеров и другой идентифицирующей информации из пользовательских запросов. Startpage не записывает IP-адреса посетителей.
@@ -1044,7 +917,7 @@
 			<div class="col-sm-4">
 	        	<div class="panel panel-warning">
 		          	<div class="panel-heading">
-		            	<h3 class="panel-title">DuckDuckGo</h3>
+		            	<h3 class="panel-title">DuckDuckGo - США</h3>
 		          	</div>
 		          	<div class="panel-body">
 		            	<p><img src="img/provider/DuckDuckGo.jpg" alt="DuckDuckGo" align="right" style="margin-left:5px;">Поисковая система, которая не следит за тобой. Часть кода DuckDuckGo открыта и доступна на <a href="https://github.com/duckduckgo">GitHub</a>, но ядро проприетарно. <span class="flag-icon flag-icon-us"></span> <a href="#ukusa">Компания расположена в США.</a></p>
@@ -1057,8 +930,26 @@
 		            	</p>
 		          	</div>
 	        	</div>
-      		</div>
+			  </div>
+
+			  <div class="col-sm-4">
+					<div class="panel panel-danger">
+						<div class="panel-heading">
+							<h3 class="panel-title">Qwant - Франция</h3>
+						</div>
+						<div class="panel-body">
+							<p><img src="img/provider/qwant.jpg" alt="Qwant" align="right" style="margin-left:5px;">Философия Qwant основана на двух принципах: приватности и нейтральности по отношению к результатам поиска. Qwant был запущен во Франции в феврале 2013 года. <a href="https://www.qwant.com/privacy">Политика конфиденциальности.</a></p>
+		
+							<p>
+								<a href="https://qwant.com/">
+								<button type="button" class="btn btn-danger">Веб-сайт: qwant.com</button>
+								</a>
+							</p>
+						</div>
+					</div>
+				</div>
 		</div>
+
 
 		<h3>Расширение Firefox</h3>
 		<ul>
@@ -1070,9 +961,6 @@
 
 		<h3>См. также</h3>
 		<ul>
-			<li>
-				<a href="https://www.qwant.com/">Qwant</a> - философия Qwant основана на двух принципах: приватности и нейтральности по отношению к результатам поиска. Qwant был запущен во Франции в феврале 2013 года.
-			</li>
 			<li>
 				<a href="https://metager.de/en/">MetaGer</a> - метапоисковая система с открытым исходным кодом из Германии с главной задачей по защите приватности пользователей.
 			</li>
@@ -1096,41 +984,40 @@
 
 		<div class="row">
 
-			<!-- browsers - tor browser -->
+			<!-- browsers - firefox -->
 			<div class="col-sm-4">
-				<div class="panel panel-success">
-					<div class="panel-heading">
-						<h3 class="panel-title">Tor Browser</h3>
-					</div>
-					<div class="panel-body">
-						<p><img src="img/tools/Tor-Project.png" align="right" style="margin-left:5px;">Tor Browser - твой выбор для повышенной анонимности. Это модифицированная версия Firefox с предустановленными аддонами приватности, шифрованием и продвинутым прокси.
-						</p>
-						<p>
-							<a href="https://www.torproject.org/">
-								<button type="button" class="btn btn-success">Скачать: torproject.org</button>
-							</a>
-							<a data-toggle="tooltip" data-placement="bottom" data-original-title="http://expyuzz4wqqyqhjn.onion. Для доступа необходимо специальное ПО: torproject.org" href="http://expyuzz4wqqyqhjn.onion"><img src="img/layout/tor.png" width="35"></img></a>
-						</p>
-						<p>OS: Windows, Mac, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/docs/android.html.en">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a></p>
+					<div class="panel panel-success">
+						<div class="panel-heading">
+							<h3 class="panel-title">Mozilla Firefox</h3>
+						</div>
+						<div class="panel-body">
+							<p><img src="img/tools/Firefox.png" align="right" style="margin-left:5px;">Firefox - быстрый и безопасный браузер с открытым исходным кодом, позволяющий защитить приватность в Интернете. См. также: рекомендуемые настройки
+								 <a href="#webrtc"><span class="glyphicon glyphicon-link"></span> WebRTC</a> и <a href="#about_config"><span class="glyphicon glyphicon-link"></span> about:config</a> и <a href="#addons"><span class="glyphicon glyphicon-link"></span>расширения приватности</a>.</p>
+							<p>
+								<a href="https://www.firefox.com/">
+									<button type="button" class="btn btn-success">Скачать: firefox.com</button>
+								</a>
+							</p>
+							<p>OS: Windows, Mac, Linux, Android, BSD.</p>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<!-- browsers - firefox -->
+			<!-- browsers - tor browser -->
 			<div class="col-sm-4">
 				<div class="panel panel-info">
 					<div class="panel-heading">
-						<h3 class="panel-title">Mozilla Firefox</h3>
+						<h3 class="panel-title">Tor Browser - Обеспечивает анонимность</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/Firefox.png" align="right" style="margin-left:5px;">Firefox - быстрый и безопасный браузер с открытым исходным кодом, позволяющий защитить приватность в Интернете. См. также: рекомендуемые настройки
-							 <a href="#webrtc"><span class="glyphicon glyphicon-link"></span> WebRTC</a> и <a href="#about_config"><span class="glyphicon glyphicon-link"></span> about:config</a> и <a href="#addons"><span class="glyphicon glyphicon-link"></span>расширения приватности</a>.</p>
+						<p><img src="img/tools/Tor-Browser.png" align="right" style="margin-left:5px;">Tor Browser - твой выбор для повышенной анонимности. Это модифицированная версия Firefox с предустановленными аддонами приватности, шифрованием и продвинутым прокси. <a href="https://write.privacytools.io/my-thoughts-on-security/slicing-onions-part-1-myth-busting-tor">Как работает Tor?</a></p>
 						<p>
-							<a href="https://www.firefox.com/">
-								<button type="button" class="btn btn-info">Скачать: firefox.com</button>
+							<a href="https://www.torproject.org/ru/">
+								<button type="button" class="btn btn-info">Скачать: torproject.org</button>
 							</a>
+							<a data-toggle="tooltip" data-placement="bottom" data-original-title="http://expyuzz4wqqyqhjn.onion. Для доступа необходимо специальное ПО: torproject.org" href="http://expyuzz4wqqyqhjn.onion"><img src="img/layout/tor.png" width="35"></img></a>
 						</p>
-						<p>OS: Windows, Mac, Linux, Android, BSD.</p>
+						<p>OS: Windows, Mac, Linux, <a href="https://mike.tig.as/onionbrowser/">iOS</a>, <a href="https://www.torproject.org/ru/download/#android">Android</a>, <a href="https://github.com/torbsd/openbsd-ports">OpenBSD.</a></p>
 					</div>
 				</div>
 			</div>
@@ -1139,10 +1026,10 @@
 			<div class="col-sm-4">
 				<div class="panel panel-warning">
 					<div class="panel-heading">
-						<h3 class="panel-title">Brave</h3>
+						<h3 class="panel-title">Brave - основан на Chromium</h3>
 					</div>
 					<div class="panel-body">
-						<p><img src="img/tools/Brave.png" align="right" style="margin-left:5px;">Браузер с открытым исходным кодом, автоматически блокирующий рекламу и трекеры и ориентированный на безопасность пользователя. Основан на Хромиум.</p>
+						<p><img src="img/tools/Brave.png" align="right" style="margin-left:5px;">Браузер с открытым исходным кодом, автоматически блокирующий рекламу и трекеры и ориентированный на безопасность пользователя. Основан на Chromium. <span class="badge" data-toggle="tooltip" data-original-title="Brave - это хороший выбор, если вы хотите использовать браузер на основе Chromium. Но на данный момент в развитии Brave, это не так хорошо, как Firefox с дополнениями конфиденциальности.">экспериментальный</span></p>
 						<p>
 							<a href="https://www.brave.com/">
 								<button type="button" class="btn btn-warning">Скачать: brave.com</button>
@@ -1190,6 +1077,12 @@
 		<!-- third paragraph -->
 		<p>Современные браузеры не были созданы с целью защиты пользовательской приватности. Мы рекомендуем использовать <a href="#addons"><span class="glyphicon glyphicon-link"></span> бесплатные расширения</a>
 			такие как Privacy Badger, uBlock Origin и Disconnect - с их помощью можно анонимизировать браузерный отпечаток и повысить приватность.</p>
+
+		<!-- firefox addon -->
+		<h3>Дополнение Firefox: CanvasBlocker</h3>
+		<ul>
+			<li><a href="https://addons.mozilla.org/firefox/addon/canvasblocker/">addons.mozilla.org</a> - <b>CanvasBlocker</b> позволяет пользователям запретить веб-сайтам использовать некоторые API JavaScript с целью идентификации их отпечатков пальцев. Пользователи могут полностью блокировать API на некоторых или всех веб-сайтах (которые могут взломать некоторые из них) или просто блокировать или подделать его API для считывания отпечатков пальцев.</li>
+		</ul>
 
 		<!-- related information links -->
 		<h3>Дополнительная информация</h3>
